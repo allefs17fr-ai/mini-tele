@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "passwordSha256": "2a95c2b33abb03ffb12ee2b775b4320f5a4c27ff33f6caff6975fb87f4bc86ce",
+  "github": {
+    "owner": "allefs17fr-ai",
+    "repo": "mini-tele",
+    "branch": "main"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "mini-tele",
+  "private": true,
+  "description": "Testes de navegador. O site em si é estático e não precisa de Node.",
+  "scripts": {
+    "test": "node tests/e2e.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.64.1"
+  }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr" class="notranslate">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="google" content="notranslate">
+  <meta name="theme-color" content="#ff6b8a">
+  <meta name="description" content="Mini Télé — dessins animés choisis pour les tout-petits.">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Mini Télé">
+  <title>Mini Télé</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/favicon-32.png" type="image/png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-180.png">
+  <link rel="stylesheet" href="css/kid.css">
+  <script>
+    try {
+      if (localStorage.getItem("minitele.lang") === "pt-BR") document.documentElement.lang = "pt-BR";
+    } catch (error) { /* ignore */ }
+  </script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo" aria-hidden="true">📺</span>
+      <div>
+        <h1>Mini Télé</h1>
+        <p class="subtitle" data-i18n="kidSubtitle"></p>
+      </div>
+    </div>
+    <div class="lang" role="group" data-i18n-aria="langGroup">
+      <button type="button" class="lang-btn" data-lang="fr">FR</button>
+      <button type="button" class="lang-btn" data-lang="pt-BR">PT</button>
+    </div>
+  </header>
+  <main id="library"></main>
+  <p class="hint" data-i18n="dpadHint"></p>
+  <div id="player-layer" hidden>
+    <div class="player-frame">
+      <div id="yt-slot"></div>
+      <div class="player-shield" aria-hidden="true"></div>
+    </div>
+    <div class="progress" aria-hidden="true"><div id="progress-bar"></div></div>
+    <p id="player-message" class="player-message" hidden></p>
+    <div class="player-ui">
+      <button type="button" id="player-back" class="big-btn" data-i18n="back"></button>
+      <button type="button" id="player-toggle" class="big-btn" data-i18n="pause"></button>
+    </div>
+  </div>
+  <script src="js/i18n.js"></script>
+  <script src="js/dpad.js"></script>
+  <script src="js/kid.js"></script>
+</body>
+</html>

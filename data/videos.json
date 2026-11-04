@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "revision": 1,
+  "updatedAt": "2026-11-04T12:00:00Z",
+  "starterSet": true,
+  "notes": {
+    "fr": "Kit de départ, à remplacer quand tu veux. Épisodes calmes des chaînes officielles. T'choupi et Bing viennent du flux RSS récent. Petit Ours Brun et Trotro sont des épisodes courts plus anciens des mêmes chaînes : le flux récent ne montrait que des compilations et des Shorts.",
+    "pt": "Kit inicial, pode trocar quando quiser. Episódios calmos dos canais oficiais. T'choupi e Bing vêm do feed RSS recente. Petit Ours Brun e Trotro são episódios curtos mais antigos dos mesmos canais: o feed recente só tinha compilações e Shorts."
+  },
+  "videos": [
+    {
+      "id": "iQufE_nUjpw",
+      "title": "T'Choupi et Doudou 🫣 T'choupi joue à cache-cache (EP. 43) - dessin animé pour enfants #tchoupi",
+      "label": "T'choupi joue à cache-cache",
+      "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
+      "channelName": "T'choupi (officiel)",
+      "thumbnail": "https://i.ytimg.com/vi/iQufE_nUjpw/hqdefault.jpg",
+      "durationSeconds": 302,
+      "publishedAt": "2026-10-13T00:00:00Z",
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "4Yrq5XefTEE",
+      "title": "T'choupi à l'école 📷 Le jour de la photo de classe (EP.26) - dessin animé pour enfants #tchoupi",
+      "label": "T'choupi : le jour de la photo",
+      "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
+      "channelName": "T'choupi (officiel)",
+      "thumbnail": "https://i.ytimg.com/vi/4Yrq5XefTEE/hqdefault.jpg",
+      "durationSeconds": 421,
+      "publishedAt": "2026-11-03T00:00:00Z",
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "G_TFUJ-wxic",
+      "title": "🛏️ T'choupi et ses amis - La bataille de polochons (EP.15) - dessin animé - épisode #tchoupi",
+      "label": "T'choupi : la bataille de polochons",
+      "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
+      "channelName": "T'choupi (officiel)",
+      "thumbnail": "https://i.ytimg.com/vi/G_TFUJ-wxic/hqdefault.jpg",
+      "durationSeconds": 423,
+      "publishedAt": "2026-09-22T00:00:00Z",
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "jkvPQLEgww4",
+      "title": "Petit Ours Brun prend son bain - Petit Ours Brun",
+      "label": "Petit Ours Brun prend son bain",
+      "channelId": "UC736wpHH44mdw-lhKTy89ZQ",
+      "channelName": "Petit Ours Brun",
+      "thumbnail": "https://i.ytimg.com/vi/jkvPQLEgww4/hqdefault.jpg",
+      "durationSeconds": 178,
+      "publishedAt": null,
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "kueVzRFqNBk",
+      "title": "Petit Ours Brun - Petit Ours Brun ne veut plus faire la sieste",
+      "label": "Petit Ours Brun ne veut plus faire la sieste",
+      "channelId": "UC736wpHH44mdw-lhKTy89ZQ",
+      "channelName": "Petit Ours Brun",
+      "thumbnail": "https://i.ytimg.com/vi/kueVzRFqNBk/hqdefault.jpg",
+      "durationSeconds": 177,
+      "publishedAt": null,
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "yTCEnEGwMM8",
+      "title": "Petit Ours Brun n'a pas sommeil - Petit Ours Brun",
+      "label": "Petit Ours Brun n'a pas sommeil",
+      "channelId": "UC736wpHH44mdw-lhKTy89ZQ",
+      "channelName": "Petit Ours Brun",
+      "thumbnail": "https://i.ytimg.com/vi/yTCEnEGwMM8/hqdefault.jpg",
+      "durationSeconds": 177,
+      "publishedAt": null,
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "X5xQuyttyEk",
+      "title": "TROTRO - EP17 - Trotro fait la sieste",
+      "label": "Trotro fait la sieste",
+      "channelId": "UCNy0cDNYdgx8qGMk-t1H_QA",
+      "channelName": "Trotro Officiel",
+      "thumbnail": "https://i.ytimg.com/vi/X5xQuyttyEk/hqdefault.jpg",
+      "durationSeconds": 213,
+      "publishedAt": null,
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "1wJlHxcRK-A",
+      "title": "TROTRO - EP19 - Trotro et son lit",
+      "label": "Trotro et son lit",
+      "channelId": "UCNy0cDNYdgx8qGMk-t1H_QA",
+      "channelName": "Trotro Officiel",
+      "thumbnail": "https://i.ytimg.com/vi/1wJlHxcRK-A/hqdefault.jpg",
+      "durationSeconds": 214,
+      "publishedAt": null,
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "9fjukuRuiTA",
+      "title": "TROTRO - EP05 - Trotro fait les courses",
+      "label": "Trotro fait les courses",
+      "channelId": "UCNy0cDNYdgx8qGMk-t1H_QA",
+      "channelName": "Trotro Officiel",
+      "thumbnail": "https://i.ytimg.com/vi/9fjukuRuiTA/hqdefault.jpg",
+      "durationSeconds": 212,
+      "publishedAt": null,
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "DoO-AT5F0C4",
+      "title": "C'est l'heure du bain ! | Bing Français",
+      "label": "Bing : c'est l'heure du bain",
+      "channelId": "UCuYu7JkLESqPn2T-PPk4jeQ",
+      "channelName": "Bing Français - Chaîne Officielle",
+      "thumbnail": "https://i.ytimg.com/vi/DoO-AT5F0C4/hqdefault.jpg",
+      "durationSeconds": 1179,
+      "publishedAt": "2026-09-16T00:00:00Z",
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "WVbdNCXPCfQ",
+      "title": "Bing se prépare à aller chez Sula ! | Bing Français",
+      "label": "Bing va chez Sula",
+      "channelId": "UCuYu7JkLESqPn2T-PPk4jeQ",
+      "channelName": "Bing Français - Chaîne Officielle",
+      "thumbnail": "https://i.ytimg.com/vi/WVbdNCXPCfQ/hqdefault.jpg",
+      "durationSeconds": 1179,
+      "publishedAt": "2026-10-28T00:00:00Z",
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    },
+    {
+      "id": "DShqsvgBFoI",
+      "title": "Bing et Sula trouvent un ballon canard coincé dans un arbre au parc ! | Bing Français",
+      "label": "Bing et le ballon canard",
+      "channelId": "UCuYu7JkLESqPn2T-PPk4jeQ",
+      "channelName": "Bing Français - Chaîne Officielle",
+      "thumbnail": "https://i.ytimg.com/vi/DShqsvgBFoI/hqdefault.jpg",
+      "durationSeconds": 1179,
+      "publishedAt": "2026-10-14T00:00:00Z",
+      "approvedAt": "2026-11-04T12:00:00Z",
+      "starter": true
+    }
+  ]
+}

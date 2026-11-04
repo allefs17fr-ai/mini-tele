@@ -1,0 +1,69 @@
+name: Build Android APK
+
+on:
+  push:
+    paths:
+      - "android/**"
+      - ".github/workflows/apk.yml"
+  pull_request:
+    paths:
+      - "android/**"
+      - ".github/workflows/apk.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install SDK packages
+        run: |
+          yes | sdkmanager --licenses >/dev/null || true
+          sdkmanager --install "platforms;android-34" "build-tools;34.0.0"
+
+      - name: Build signed release APK
+        working-directory: android
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleRelease --no-daemon --stacktrace
+
+      - name: Rename APK
+        run: cp android/app/build/outputs/apk/release/app-release.apk mini-tele.apk
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mini-tele-apk
+          path: mini-tele.apk
+          if-no-files-found: error
+
+      - name: Publish GitHub Release
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: android-apk
+          name: Mini Télé — app Android (telefone e Android TV)
+          make_latest: false
+          body: |
+            Aplicativo WebView em tela cheia para telefone e Android TV.
+            Ele abre https://allefs17fr-ai.github.io/mini-tele/
+
+            Na TV, permita instalar apps de fontes desconhecidas e abra este APK.
+            Veja o README para o passo a passo.
+          files: mini-tele.apk
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
