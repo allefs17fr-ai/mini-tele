@@ -140,7 +140,7 @@ Se uma atualização futura recusar instalar por causa da assinatura, desinstale
 
 ## Como o vídeo toca
 
-O player é o YouTube IFrame no domínio `youtube-nocookie.com`, com `rel=0` e sem botão de tela cheia do YouTube. Uma camada por cima do player impede o toque no logo, no título e nas sugestões. Uns 3 segundos antes do fim, a página fecha o vídeo e volta para a grade, para a tela de sugestões não ficar clicável. Não há link para abrir o YouTube.
+O player é o YouTube IFrame no domínio `youtube-nocookie.com`, com `rel=0` e sem os controles nativos do YouTube. Uma camada cobre o vídeo inteiro e impede o toque no logo, no título e nas sugestões. Por cima dela ficam os nossos botões: pausa/play e uma barra para avançar ou voltar. No celular, toque na pausa e arraste a barra. Na TV, OK pausa, as setas chegam na barra e, com a barra selecionada, esquerda/direita pulam cerca de 10 segundos. O tempo já visto e a duração aparecem na barra. Os controles somem depois de alguns segundos e voltam com um toque ou qualquer tecla. Uns 3 segundos antes do fim, a página fecha o vídeo e volta para a grade. Não há link para abrir o YouTube.
 
 ## Segurança, em uma frase
 

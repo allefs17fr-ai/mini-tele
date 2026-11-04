@@ -78,8 +78,9 @@ public class MainActivity extends Activity {
                 if (Build.VERSION.SDK_INT < 23) showOffline();
             }
         });
-        webView.setOnLongClickListener(view -> true);
+        /* A long-press listener that consumes the gesture cancels a slow drag on the seek bar. */
         webView.setLongClickable(false);
+        webView.setHapticFeedbackEnabled(false);
         setContentView(webView);
         webView.requestFocus();
         webView.loadUrl(HOME);
@@ -135,7 +136,32 @@ public class MainActivity extends Activity {
     @Override
     public boolean dispatchKeyEvent(KeyEvent event) {
         if (webView != null && !webView.hasFocus()) webView.requestFocus();
+        if (event.getAction() == KeyEvent.ACTION_DOWN && dispatchMediaKey(event.getKeyCode())) {
+            return true;
+        }
         return super.dispatchKeyEvent(event);
+    }
+
+    /** TV remotes send media keys that the page does not always receive as arrows. */
+    private boolean dispatchMediaKey(int keyCode) {
+        String action = null;
+        if (keyCode == KeyEvent.KEYCODE_MEDIA_PLAY_PAUSE
+                || keyCode == KeyEvent.KEYCODE_MEDIA_PLAY
+                || keyCode == KeyEvent.KEYCODE_MEDIA_PAUSE
+                || keyCode == KeyEvent.KEYCODE_HEADSETHOOK) {
+            action = "toggle";
+        } else if (keyCode == KeyEvent.KEYCODE_MEDIA_REWIND
+                || keyCode == KeyEvent.KEYCODE_MEDIA_SKIP_BACKWARD
+                || keyCode == KeyEvent.KEYCODE_MEDIA_STEP_BACKWARD) {
+            action = "back";
+        } else if (keyCode == KeyEvent.KEYCODE_MEDIA_FAST_FORWARD
+                || keyCode == KeyEvent.KEYCODE_MEDIA_SKIP_FORWARD
+                || keyCode == KeyEvent.KEYCODE_MEDIA_STEP_FORWARD) {
+            action = "forward";
+        }
+        if (action == null || webView == null) return false;
+        webView.evaluateJavascript("window.miniTeleMedia&&window.miniTeleMedia('" + action + "')", null);
+        return true;
     }
 
     @Override

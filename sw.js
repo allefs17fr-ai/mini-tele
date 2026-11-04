@@ -1,5 +1,5 @@
 /* App shell. Video pages stay on the network so a new approval shows up quickly. */
-var CACHE = "minitele-shell-2";
+var CACHE = "minitele-shell-3";
 var PRECACHE = [
   "./",
   "./index.html",

@@ -41,12 +41,19 @@
       <div id="yt-slot"></div>
       <div class="player-shield" aria-hidden="true"></div>
     </div>
-    <div class="progress" aria-hidden="true"><div id="progress-bar"></div></div>
     <p id="player-message" class="player-message" hidden></p>
-    <div class="player-ui">
-      <button type="button" id="player-back" class="big-btn" data-i18n="back"></button>
+    <div class="player-ui" id="player-ui">
       <button type="button" id="player-toggle" class="big-btn" data-i18n="pause"></button>
+      <div class="seek-wrap">
+        <input id="seek" type="range" min="0" max="1000" value="0" step="1" data-i18n-aria="seek">
+        <p class="time" data-i18n-aria="timeLabel">
+          <span id="time-elapsed">0:00</span>
+          <span id="time-total">0:00</span>
+        </p>
+      </div>
+      <button type="button" id="player-back" class="big-btn back-btn" data-i18n="back"></button>
     </div>
+    <div class="progress" aria-hidden="true"><div id="progress-bar"></div></div>
   </div>
   <script src="js/i18n.js"></script>
   <script src="js/dpad.js"></script>
