@@ -22,18 +22,31 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Setup Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: "17"
 
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
       - name: Install SDK packages
         run: |
-          yes | sdkmanager --licenses >/dev/null || true
-          sdkmanager --install "platforms;android-34" "build-tools;34.0.0"
+          if [ -z "${ANDROID_HOME:-}" ]; then
+            if [ -n "${ANDROID_SDK_ROOT:-}" ]; then
+              ANDROID_HOME="$ANDROID_SDK_ROOT"
+            elif [ -d /usr/local/lib/android/sdk ]; then
+              ANDROID_HOME=/usr/local/lib/android/sdk
+            else
+              echo "Android SDK not found on this runner" >&2
+              exit 1
+            fi
+          fi
+          echo "ANDROID_HOME=$ANDROID_HOME" >> "$GITHUB_ENV"
+          echo "ANDROID_SDK_ROOT=$ANDROID_HOME" >> "$GITHUB_ENV"
+          sdkmanager="$(find "$ANDROID_HOME/cmdline-tools" -type f -name sdkmanager | sort | tail -1)"
+          test -n "$sdkmanager"
+          set +o pipefail
+          yes | "$sdkmanager" --sdk_root="$ANDROID_HOME" --licenses >/dev/null
+          set -o pipefail
+          "$sdkmanager" --sdk_root="$ANDROID_HOME" "platforms;android-34" "build-tools;34.0.0"
 
       - name: Build signed release APK
         working-directory: android
