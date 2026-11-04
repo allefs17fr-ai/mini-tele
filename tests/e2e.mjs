@@ -105,10 +105,79 @@ try {
   await page.screenshot({ path: join(artifacts, "screenshot_kid_phone.png") });
   await page.setViewportSize({ width: 1280, height: 800 });
 
+  await page.route(/youtube\.com\/iframe_api/, async (route) => {
+    await route.fulfill({
+      contentType: "text/javascript",
+      body: `
+        window.YT = {
+          PlayerState: { ENDED: 0, PLAYING: 1, PAUSED: 2 },
+          Player: function (id, opts) {
+            window.__lastPlayerVars = opts.playerVars;
+            var time = 12;
+            var duration = 180;
+            var state = 1;
+            var self = this;
+            this.playVideo = function () { state = 1; opts.events.onStateChange({ data: 1, target: self }); };
+            this.pauseVideo = function () { state = 2; opts.events.onStateChange({ data: 2, target: self }); };
+            this.seekTo = function (t) { time = t; };
+            this.getCurrentTime = function () { return time; };
+            this.getDuration = function () { return duration; };
+            this.getPlayerState = function () { return state; };
+            this.getIframe = function () { return document.getElementById("yt-slot"); };
+            this.destroy = function () {};
+            setTimeout(function () { opts.events.onReady({ target: self }); }, 30);
+          }
+        };
+        if (window.onYouTubeIframeAPIReady) window.onYouTubeIframeAPIReady();
+      `
+    });
+  });
+
   await page.locator(".card").first().click();
   await page.waitForSelector("#player-layer:not([hidden])");
+  await page.waitForFunction(() => document.querySelector("#time-elapsed").textContent === "0:12" && document.querySelector("#time-total").textContent === "3:00");
   const shield = await page.locator(".player-shield").count();
+  const nativeOff = await page.evaluate(() => window.__lastPlayerVars && window.__lastPlayerVars.controls === 0 && window.__lastPlayerVars.rel === 0);
   check("player opens with a shield over the end screen", shield === 1);
+  check("native youtube controls stay off", nativeOff);
+  check("pause control and times are visible", (await page.locator("#player-toggle").innerText()).includes("Pause"));
+  await page.screenshot({ path: join(artifacts, "screenshot_player_controls.png") });
+
+  await page.click("#player-toggle");
+  await page.waitForFunction(() => document.querySelector("#player-toggle").textContent.includes("Lecture"));
+  check("pause button switches to play", true);
+  await page.screenshot({ path: join(artifacts, "screenshot_player_paused.png") });
+
+  await page.focus("#seek");
+  await page.keyboard.press("ArrowRight");
+  await page.waitForFunction(() => document.querySelector("#time-elapsed").textContent === "0:22");
+  check("right arrow on the bar seeks 10 seconds", true);
+  await page.locator("#seek").evaluate((el) => {
+    el.value = "500";
+    el.dispatchEvent(new Event("input", { bubbles: true }));
+  });
+  await page.waitForFunction(() => document.querySelector("#time-elapsed").textContent === "1:30");
+  check("dragging the bar seeks within the episode", true);
+  await page.screenshot({ path: join(artifacts, "screenshot_player_seek.png") });
+  await page.focus("#seek");
+  await page.keyboard.press("ArrowDown");
+  const below = await page.evaluate(() => document.activeElement && document.activeElement.id);
+  check("down from the bar reaches a button", below === "player-toggle" || below === "player-back", below);
+  await page.keyboard.press("ArrowUp");
+  check("up from the buttons reaches the bar", await page.evaluate(() => document.activeElement && document.activeElement.id) === "seek");
+
+  await page.evaluate(() => I18N.toggle("pt-BR"));
+  await page.waitForFunction(() => document.querySelector("#player-toggle").textContent.includes("Tocar"));
+  check("player labels follow the Portuguese toggle", (await page.locator("#seek").getAttribute("aria-label")) === "Posição no vídeo");
+  await page.evaluate(() => I18N.toggle("fr"));
+
+  await page.waitForTimeout(4800);
+  await page.waitForFunction(() => document.getElementById("player-layer").classList.contains("controls-hidden"));
+  check("controls hide after a few seconds", true);
+  await page.keyboard.press("ArrowUp");
+  await page.waitForFunction(() => !document.getElementById("player-layer").classList.contains("controls-hidden"));
+  check("a key brings the controls back", true);
+
   await page.keyboard.press("Escape");
   await page.waitForFunction(() => document.getElementById("player-layer").hidden);
   check("back key returns to the grid", true);
@@ -158,7 +227,18 @@ try {
     });
   });
 
-  await page.goto(base + "/admin.html", { waitUntil: "networkidle" });
+  await page.evaluate(async () => {
+    const regs = await navigator.serviceWorker.getRegistrations();
+    await Promise.all(regs.map((reg) => reg.unregister()));
+    const keys = await caches.keys();
+    await Promise.all(keys.map((key) => caches.delete(key)));
+  });
+  await page.route("**/data/config.json", async (route) => {
+    const json = JSON.parse(await readFile(join(root, "data/config.json"), "utf8"));
+    json.passwordSha256 = "2a95c2b33abb03ffb12ee2b775b4320f5a4c27ff33f6caff6975fb87f4bc86ce";
+    await route.fulfill({ contentType: "application/json", body: JSON.stringify(json) });
+  });
+  await page.goto(base + "/admin.html", { waitUntil: "domcontentloaded" });
   await page.fill("#password", "errado");
   await page.click("#login-form button[type=submit]");
   await page.waitForFunction(() => document.querySelector("#login-error").textContent.length > 0);

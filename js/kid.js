@@ -5,19 +5,26 @@
   var playerFrame = document.querySelector(".player-frame");
   var playerBack = document.getElementById("player-back");
   var playerToggle = document.getElementById("player-toggle");
+  var seek = document.getElementById("seek");
+  var timeElapsed = document.getElementById("time-elapsed");
+  var timeTotal = document.getElementById("time-total");
   var progressBar = document.getElementById("progress-bar");
   var playerMessage = document.getElementById("player-message");
+  var shield = document.querySelector(".player-shield");
 
   var channels = [];
   var videos = [];
   var player = null;
   var pollTimer = 0;
+  var hideTimer = 0;
+  var dragging = false;
   var apiReady = false;
   var apiRequested = false;
   var pendingId = null;
   var playingId = null;
   var historyMarked = false;
   var closing = false;
+  var HIDE_CONTROLS_MS = 4500;
 
   var ID_RE = /^[\w-]{11}$/;
   /* Leave before YouTube's end screen of suggested videos. */
@@ -136,8 +143,62 @@
   };
 
   function setToggleLabel(playing) {
-    playerToggle.textContent = playing ? t("pause") : t("play");
+    playerToggle.textContent = (playing ? "❚❚  " : "▶  ") + (playing ? t("pause") : t("play"));
     playerToggle.dataset.state = playing ? "playing" : "paused";
+  }
+
+  function formatTime(seconds) {
+    var whole = Math.max(0, Math.floor(Number(seconds) || 0));
+    var hours = Math.floor(whole / 3600);
+    var minutes = Math.floor((whole % 3600) / 60);
+    var secs = whole % 60;
+    var mm = hours > 0 ? String(minutes).padStart(2, "0") : String(minutes);
+    var ss = String(secs).padStart(2, "0");
+    return hours > 0 ? hours + ":" + mm + ":" + ss : mm + ":" + ss;
+  }
+
+  function showControls() {
+    playerLayer.classList.remove("controls-hidden");
+    window.clearTimeout(hideTimer);
+    hideTimer = window.setTimeout(function () {
+      if (!dragging && playerOpen()) playerLayer.classList.add("controls-hidden");
+    }, HIDE_CONTROLS_MS);
+  }
+
+  function paintTime(seconds, duration) {
+    var safeDuration = duration > 0 ? duration : 0;
+    var safeTime = safeDuration ? Math.max(0, Math.min(seconds, safeDuration)) : Math.max(0, seconds || 0);
+    timeElapsed.textContent = formatTime(safeTime);
+    timeTotal.textContent = formatTime(safeDuration);
+    var ratio = safeDuration ? safeTime / safeDuration : 0;
+    var pct = (ratio * 100).toFixed(1) + "%";
+    progressBar.style.width = pct;
+    seek.style.setProperty("--fill", pct);
+    if (!dragging) seek.value = String(Math.round(ratio * 1000));
+    seek.setAttribute("aria-valuetext", formatTime(safeTime) + " / " + formatTime(safeDuration));
+  }
+
+  function seekToSeconds(seconds) {
+    if (!player || !player.seekTo || !player.getDuration) return;
+    var duration = Number(player.getDuration());
+    if (!(duration > 1)) return;
+    var max = Math.max(0, duration - END_LEAD_SECONDS - 0.4);
+    var next = Math.max(0, Math.min(max, seconds));
+    player.seekTo(next, true);
+    paintTime(next, duration);
+  }
+
+  function seekBy(delta) {
+    if (!player || !player.getCurrentTime) return;
+    seekToSeconds(Number(player.getCurrentTime()) + delta);
+    showControls();
+  }
+
+  function togglePlay() {
+    if (!player || !player.getPlayerState || !window.YT) return;
+    showControls();
+    if (player.getPlayerState() === YT.PlayerState.PLAYING) player.pauseVideo();
+    else player.playVideo();
   }
 
   function showPlayerMessage(text) {
@@ -152,10 +213,17 @@
     }
     playingId = id;
     playerLayer.hidden = false;
+    playerLayer.classList.remove("controls-hidden");
     showPlayerMessage("");
-    progressBar.style.width = "0%";
+    paintTime(0, 0);
     setToggleLabel(true);
     document.body.classList.add("is-playing");
+    var chosen = null;
+    for (var i = 0; i < videos.length; i += 1) {
+      if (videos[i].id === id) chosen = videos[i];
+    }
+    playerFrame.style.backgroundImage = chosen ? "url(\"" + thumbFor(chosen) + "\")" : "";
+    showControls();
     if (!historyMarked) {
       history.pushState({ minitele: "player" }, "");
       historyMarked = true;
@@ -178,7 +246,7 @@
         autoplay: 1,
         rel: 0,
         modestbranding: 1,
-        controls: 0,
+        controls: 0, /* our bar sits above the shield; native controls would uncover suggestions */
         fs: 0,
         disablekb: 1,
         iv_load_policy: 3,
@@ -230,9 +298,11 @@
       var duration = Number(player.getDuration());
       var time = Number(player.getCurrentTime());
       if (!(duration > 5) || !(time >= 0)) return;
-      var ratio = Math.max(0, Math.min(1, time / duration));
-      progressBar.style.width = (ratio * 100).toFixed(1) + "%";
-      if (time > 1 && duration - time <= END_LEAD_SECONDS) closePlayer();
+      if (time > 1 && duration - time <= END_LEAD_SECONDS) {
+        closePlayer();
+        return;
+      }
+      if (!dragging) paintTime(time, duration);
     }, 400);
   }
 
@@ -269,6 +339,10 @@
     }
     closing = false;
     historyMarked = false;
+    window.clearTimeout(hideTimer);
+    dragging = false;
+    playerLayer.classList.remove("controls-hidden");
+    playerFrame.style.backgroundImage = "";
     destroyPlayer();
     var returnId = playerLayer.dataset.returnId;
     playingId = null;
@@ -310,12 +384,58 @@
   });
 
   playerBack.addEventListener("click", function () { closePlayer(); });
-  playerToggle.addEventListener("click", function () {
-    if (!player || !player.getPlayerState || !window.YT) return;
-    var state = player.getPlayerState();
-    if (state === YT.PlayerState.PLAYING) player.pauseVideo();
-    else player.playVideo();
+  playerToggle.addEventListener("click", function () { togglePlay(); });
+
+  seek.addEventListener("input", function () {
+    if (!player || !player.getDuration) return;
+    var duration = Number(player.getDuration());
+    if (!(duration > 0)) return;
+    seekToSeconds((Number(seek.value) / 1000) * duration);
   });
+  seek.addEventListener("pointerdown", function () {
+    dragging = true;
+    showControls();
+  });
+  window.addEventListener("pointerup", function () {
+    if (!dragging) return;
+    dragging = false;
+    showControls();
+  });
+  seek.addEventListener("keydown", function (event) {
+    if (event.key === "ArrowLeft" || event.key === "ArrowRight") {
+      event.preventDefault();
+      event.stopPropagation();
+      seekBy(event.key === "ArrowRight" ? 10 : -10);
+      return;
+    }
+    if (event.key === "ArrowUp" || event.key === "ArrowDown") event.preventDefault();
+  });
+
+  shield.addEventListener("pointerdown", function () {
+    var wasHidden = playerLayer.classList.contains("controls-hidden");
+    showControls();
+    if (!wasHidden) togglePlay();
+  });
+
+  document.addEventListener("keydown", function (event) {
+    if (!playerOpen()) return;
+    showControls();
+    var onButton = event.target && event.target.closest && event.target.closest("button");
+    var ok = event.key === "Enter" || event.key === " " || event.keyCode === 23;
+    if (!onButton && ok) {
+      event.preventDefault();
+      togglePlay();
+    }
+  }, true);
+
+  window.miniTeleMedia = function (action) {
+    if (!playerOpen()) return false;
+    showControls();
+    if (action === "toggle") togglePlay();
+    else if (action === "back") seekBy(-10);
+    else if (action === "forward") seekBy(10);
+    return true;
+  };
 
   document.querySelectorAll("[data-lang]").forEach(function (button) {
     button.addEventListener("click", function () {
@@ -325,6 +445,7 @@
 
   window.__miniteleOnLang = function () {
     playerBack.textContent = t("back");
+    seek.setAttribute("aria-label", t("seek"));
     if (playerOpen()) setToggleLabel(playerToggle.dataset.state !== "paused");
     render();
   };
