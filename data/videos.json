@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "revision": 1,
-  "updatedAt": "2026-11-04T12:00:00Z",
+  "revision": 2,
+  "updatedAt": "2026-11-04T17:02:19.871Z",
   "starterSet": true,
   "notes": {
     "fr": "Kit de départ, à remplacer quand tu veux. Épisodes calmes des chaînes officielles. T'choupi et Bing viennent du flux RSS récent. Petit Ours Brun et Trotro sont des épisodes courts plus anciens des mêmes chaînes : le flux récent ne montrait que des compilations et des Shorts.",
@@ -151,6 +151,18 @@
       "publishedAt": "2026-10-14T00:00:00Z",
       "approvedAt": "2026-11-04T12:00:00Z",
       "starter": true
+    },
+    {
+      "id": "PisJb-3BjFM",
+      "title": "T'choupi à l'école 🐇 A la poursuite du lapin (S02E52) - dessin animé - épisode en entier #tchoupi",
+      "label": "T'choupi à l'école 🐇 A la poursuite du lapin (S02E52) - dessin animé - épisode en entier #tchoupi",
+      "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
+      "channelName": "T'choupi (officiel)",
+      "thumbnail": "https://i.ytimg.com/vi/PisJb-3BjFM/hqdefault.jpg",
+      "durationSeconds": null,
+      "publishedAt": "2026-10-27T23:00:27+00:00",
+      "approvedAt": "2026-11-04T17:02:15.703Z",
+      "starter": false
     }
   ]
 }
