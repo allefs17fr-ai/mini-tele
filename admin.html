@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr" class="notranslate">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="google" content="notranslate">
+  <meta name="theme-color" content="#2457d6">
+  <meta name="robots" content="noindex">
+  <title>Mini Télé — parent</title>
+  <link rel="icon" href="icons/favicon-32.png" type="image/png">
+  <link rel="stylesheet" href="css/admin.css">
+  <script>
+    try {
+      if (localStorage.getItem("minitele.lang") === "pt-BR") document.documentElement.lang = "pt-BR";
+    } catch (error) { /* ignore */ }
+  </script>
+</head>
+<body>
+  <header class="top">
+    <div>
+      <h1 data-i18n="adminTitle">Mini Télé</h1>
+      <p class="subtitle" data-i18n="adminSubtitle"></p>
+    </div>
+    <div class="lang" role="group" data-i18n-aria="langGroup">
+      <button type="button" class="lang-btn" data-lang="fr">FR</button>
+      <button type="button" class="lang-btn" data-lang="pt-BR">PT</button>
+    </div>
+  </header>
+
+  <section id="gate" class="gate">
+    <form id="login-form">
+      <label for="password" data-i18n="passwordLabel"></label>
+      <input id="password" type="password" autocomplete="current-password" required>
+      <div class="stack">
+        <button type="submit" class="primary" data-i18n="login"></button>
+      </div>
+      <p id="login-error" class="error" role="alert"></p>
+    </form>
+  </section>
+
+  <main id="app" class="app" hidden>
+    <p id="default-banner" class="banner" hidden data-i18n="defaultPasswordWarning"></p>
+    <p id="status" class="status" role="status"></p>
+    <div class="stack">
+      <button type="button" id="logout" class="btn" data-i18n="logout"></button>
+      <span id="revision" class="muted"></span>
+    </div>
+    <div class="tabs" role="tablist">
+      <button type="button" role="tab" data-tab="approved" aria-selected="true" data-i18n="tabApproved"></button>
+      <button type="button" role="tab" data-tab="add" aria-selected="false" data-i18n="tabAdd"></button>
+      <button type="button" role="tab" data-tab="browse" aria-selected="false" data-i18n="tabBrowse"></button>
+      <button type="button" role="tab" data-tab="channels" aria-selected="false" data-i18n="tabChannels"></button>
+      <button type="button" role="tab" data-tab="settings" aria-selected="false" data-i18n="tabSettings"></button>
+    </div>
+
+    <section data-panel="approved" class="panel">
+      <p id="starter-note" class="muted"></p>
+      <div class="stack">
+        <button type="button" id="remove-starter" class="btn danger" data-i18n="removeStarter"></button>
+      </div>
+      <div id="approved-list"></div>
+    </section>
+
+    <section data-panel="add" class="panel" hidden>
+      <label for="video-url" data-i18n="addUrlLabel"></label>
+      <input id="video-url" type="url" data-i18n-placeholder="addUrlPlaceholder" autocomplete="off">
+      <div class="stack">
+        <button type="button" id="lookup" class="btn" data-i18n="lookup"></button>
+        <button type="button" id="approve" class="primary" data-i18n="approve" disabled></button>
+      </div>
+      <p id="preview-warn" class="warn-text"></p>
+      <div id="preview" class="preview" hidden>
+        <img id="preview-img" alt="">
+        <div>
+          <strong id="preview-title"></strong>
+          <p id="preview-meta" class="muted"></p>
+        </div>
+      </div>
+    </section>
+
+    <section data-panel="browse" class="panel" hidden>
+      <p id="feeds-when" class="muted"></p>
+      <div class="filters">
+        <label class="check"><input id="hide-shorts" type="checkbox" checked> <span data-i18n="hideShorts"></span></label>
+        <label class="check"><input id="hide-long" type="checkbox" checked> <span data-i18n="hideLong"></span></label>
+        <label class="check"><input id="hide-live" type="checkbox" checked> <span data-i18n="hideLive"></span></label>
+      </div>
+      <div id="feed-list"></div>
+    </section>
+
+    <section data-panel="channels" class="panel" hidden>
+      <div id="channel-list"></div>
+      <h2 data-i18n="channelAdd"></h2>
+      <form id="channel-form">
+        <label for="new-channel-name" data-i18n="channelName"></label>
+        <input id="new-channel-name" required>
+        <label for="new-channel-short" data-i18n="channelShort"></label>
+        <input id="new-channel-short">
+        <label for="new-channel-id" data-i18n="channelId"></label>
+        <input id="new-channel-id" required autocapitalize="off" spellcheck="false">
+        <label for="new-channel-url" data-i18n="channelUrl"></label>
+        <input id="new-channel-url" type="url">
+        <label for="new-channel-emoji" data-i18n="channelEmoji"></label>
+        <input id="new-channel-emoji" maxlength="4">
+        <label for="new-channel-category" data-i18n="categoryLabel"></label>
+        <select id="new-channel-category">
+          <option value="dessins_animes" data-i18n="category_dessins_animes"></option>
+          <option value="comptines_musique" data-i18n="category_comptines_musique"></option>
+          <option value="educatif" data-i18n="category_educatif"></option>
+        </select>
+        <div class="stack">
+          <button type="submit" class="primary" data-i18n="channelAdd"></button>
+        </div>
+      </form>
+    </section>
+
+    <section data-panel="settings" class="panel" hidden>
+      <p data-i18n="settingsIntro"></p>
+      <p id="repo-label" class="muted"></p>
+      <h2 data-i18n="tokenTitle"></h2>
+      <p data-i18n="tokenHelp"></p>
+      <label for="token" data-i18n="tokenTitle"></label>
+      <input id="token" type="password" data-i18n-placeholder="tokenPlaceholder" autocomplete="off" spellcheck="false">
+      <p id="token-state" class="muted"></p>
+      <div class="stack">
+        <button type="button" id="save-token" class="primary" data-i18n="tokenSave"></button>
+        <button type="button" id="test-token" class="btn" data-i18n="tokenTest"></button>
+        <button type="button" id="forget-token" class="btn danger" data-i18n="tokenForget"></button>
+      </div>
+      <h2 data-i18n="changePassword"></h2>
+      <form id="password-form">
+        <label for="new-password" data-i18n="newPassword"></label>
+        <input id="new-password" type="password" autocomplete="new-password">
+        <label for="confirm-password" data-i18n="confirmPassword"></label>
+        <input id="confirm-password" type="password" autocomplete="new-password">
+        <div class="stack">
+          <button type="submit" class="primary" data-i18n="changePassword"></button>
+        </div>
+      </form>
+    </section>
+
+    <div id="save-bar" class="save-bar">
+      <span id="dirty-note" data-i18n="unsaved" hidden></span>
+      <button type="button" id="save-videos" class="btn" data-i18n="saveVideos" disabled></button>
+      <button type="button" id="save-channels" class="btn" data-i18n="saveChannels" disabled></button>
+    </div>
+  </main>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/dpad.js"></script>
+  <script src="js/github.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

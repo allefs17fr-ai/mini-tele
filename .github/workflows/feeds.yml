@@ -1,0 +1,32 @@
+name: Update channel feeds
+
+on:
+  schedule:
+    # Every day at 05:15 UTC. GitHub may delay scheduled runs by a few minutes.
+    - cron: "15 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  feeds:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Fetch public YouTube RSS feeds
+        run: python3 scripts/update_feeds.py
+
+      - name: Commit data/feeds.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/feeds.json
+          if git diff --cached --quiet; then
+            echo "No feed changes"
+          else
+            git commit -m "Mettre à jour les flux des chaînes"
+            git push
+          fi

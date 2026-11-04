@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "channels": [
+    {
+      "name": "Peppa Pig Français - Chaîne Officielle",
+      "shortName": "Peppa Pig",
+      "url": "https://www.youtube.com/@PeppaPigFrancaisOfficielle",
+      "channelId": "UCXptamDYEVcU4JCio30hYTw",
+      "category": "dessins_animes",
+      "emoji": "🐷",
+      "color": "#ff8fab",
+      "description_pt": "Episódios oficiais da Peppa e família em francês.",
+      "description_fr": "Épisodes officiels de Peppa Pig en français."
+    },
+    {
+      "name": "T'choupi (officiel)",
+      "shortName": "T'choupi",
+      "url": "https://www.youtube.com/@tchoupi",
+      "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
+      "category": "dessins_animes",
+      "emoji": "🐧",
+      "color": "#7ecbff",
+      "description_pt": "Pinguinzinho T'choupi vivendo situações do dia a dia, ritmo calmo.",
+      "description_fr": "Les aventures douces de T'choupi au quotidien.",
+      "note_fr": "La chaîne @TchoupiOfficiel (UCfHhdF1ARmpM4Tq_fYAP4ZA) n'a aucune vidéo publique. Les épisodes officiels sont sur @tchoupi.",
+      "note_pt": "O canal @TchoupiOfficiel (UCfHhdF1ARmpM4Tq_fYAP4ZA) não tem nenhum vídeo público. Os episódios oficiais estão em @tchoupi."
+    },
+    {
+      "name": "Petit Ours Brun",
+      "shortName": "Petit Ours Brun",
+      "url": "https://www.youtube.com/channel/UC736wpHH44mdw-lhKTy89ZQ",
+      "channelId": "UC736wpHH44mdw-lhKTy89ZQ",
+      "category": "dessins_animes",
+      "emoji": "🐻",
+      "color": "#e0b080",
+      "description_pt": "Ursinho clássico francês, episódios curtos e tranquilos sobre rotina.",
+      "description_fr": "Le classique Petit Ours Brun, épisodes courts et apaisants."
+    },
+    {
+      "name": "Trotro Officiel",
+      "shortName": "Trotro",
+      "url": "https://www.youtube.com/@TrotroOfficiel",
+      "channelId": "UCNy0cDNYdgx8qGMk-t1H_QA",
+      "category": "dessins_animes",
+      "emoji": "🐴",
+      "color": "#c4b5fd",
+      "description_pt": "Burrinho Trotro, episódios curtíssimos e simples.",
+      "description_fr": "Trotro le petit âne, épisodes très courts."
+    },
+    {
+      "name": "Bluey - Français Chaîne Officielle",
+      "shortName": "Bluey",
+      "url": "https://www.youtube.com/@BlueyFrancais",
+      "channelId": "UCrGR1w7FATM8OiK_EzN3GAw",
+      "category": "dessins_animes",
+      "emoji": "🐶",
+      "color": "#7eb6ff",
+      "description_pt": "Família de cães, brincadeiras imaginativas e emoções.",
+      "description_fr": "Bluey et sa famille : jeu, imagination et émotions."
+    },
+    {
+      "name": "Simon Super Lapin [Français]",
+      "shortName": "Simon",
+      "url": "https://www.youtube.com/@SimonSuperLapin",
+      "channelId": "UCo9j7fWproKYTos4_RY-LUw",
+      "category": "dessins_animes",
+      "emoji": "🐇",
+      "color": "#f9a8d4",
+      "description_pt": "Coelhinho Simon e o irmão Gaspard, vida de criança pequena.",
+      "description_fr": "Simon et Gaspard, la vie des tout-petits."
+    },
+    {
+      "name": "Bing Français - Chaîne Officielle",
+      "shortName": "Bing",
+      "url": "https://www.youtube.com/@BingFrancais",
+      "channelId": "UCuYu7JkLESqPn2T-PPk4jeQ",
+      "category": "dessins_animes",
+      "emoji": "🐰",
+      "color": "#fb7185",
+      "description_pt": "Coelhinho Bing aprendendo com pequenos desafios e sentimentos.",
+      "description_fr": "Bing apprend à gérer petits défis et émotions."
+    },
+    {
+      "name": "P'tit Loup",
+      "shortName": "P'tit Loup",
+      "url": "https://www.youtube.com/@PtitLoup",
+      "channelId": "UCgMYB5Ni3MTlEBKhBqcdqRQ",
+      "category": "dessins_animes",
+      "emoji": "🐺",
+      "color": "#a8b4c4",
+      "description_pt": "Lobinho dos livros da Auzou, histórias de primeiras experiências.",
+      "description_fr": "P'tit Loup, d'après les livres Auzou : premières expériences."
+    },
+    {
+      "name": "Le monde des Titounis",
+      "shortName": "Titounis",
+      "url": "https://www.youtube.com/@LeMondedesTitounis",
+      "channelId": "UC-R-gyCPU83eKtpm46FH1nQ",
+      "category": "comptines_musique",
+      "emoji": "🎵",
+      "color": "#fbbf24",
+      "description_pt": "Cantigas infantis francesas clássicas animadas.",
+      "description_fr": "Comptines traditionnelles françaises animées."
+    },
+    {
+      "name": "Comptines et chansons",
+      "shortName": "Comptines",
+      "url": "https://www.youtube.com/@comptinesTV",
+      "channelId": "UCq6jhYDQ2HBvEPIev8NDglw",
+      "category": "comptines_musique",
+      "emoji": "🎶",
+      "color": "#34d399",
+      "description_pt": "Cantigas e músicas infantis tradicionais francesas.",
+      "description_fr": "Comptines et chansons pour enfants."
+    },
+    {
+      "name": "Les P'tits z'Amis",
+      "shortName": "P'tits z'Amis",
+      "url": "https://www.youtube.com/@LesPtitsZAmis",
+      "channelId": "UC9pxNghOaqpW4FzW74_KS1Q",
+      "category": "comptines_musique",
+      "emoji": "🎤",
+      "color": "#a78bfa",
+      "description_pt": "Cantigas francesas animadas para os pequenos (verificar conteúdo antes).",
+      "description_fr": "Comptines animées pour les petits."
+    },
+    {
+      "name": "Lumni",
+      "shortName": "Lumni",
+      "url": "https://www.youtube.com/@lumni",
+      "channelId": "UCB9Ryofh48sG51db-Y7kY6g",
+      "category": "educatif",
+      "emoji": "📚",
+      "color": "#38bdf8",
+      "description_pt": "Canal educativo público (France TV); escolher só vídeos de maternelle, muito conteúdo é para crianças maiores.",
+      "description_fr": "Plateforme éducative publique ; choisir les vidéos niveau maternelle."
+    }
+  ]
+}
