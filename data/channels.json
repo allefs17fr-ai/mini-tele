@@ -2,17 +2,6 @@
   "schemaVersion": 1,
   "channels": [
     {
-      "name": "Peppa Pig Français - Chaîne Officielle",
-      "shortName": "Peppa Pig",
-      "url": "https://www.youtube.com/@PeppaPigFrancaisOfficielle",
-      "channelId": "UCXptamDYEVcU4JCio30hYTw",
-      "category": "dessins_animes",
-      "emoji": "🐷",
-      "color": "#ff8fab",
-      "description_pt": "Episódios oficiais da Peppa e família em francês.",
-      "description_fr": "Épisodes officiels de Peppa Pig en français."
-    },
-    {
       "name": "T'choupi (officiel)",
       "shortName": "T'choupi",
       "url": "https://www.youtube.com/@tchoupi",
