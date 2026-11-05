@@ -1,182 +1,7 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-04T13:07:16+00:00",
+  "generatedAt": "2026-11-05T13:15:39+00:00",
   "channels": [
-    {
-      "channelId": "UCXptamDYEVcU4JCio30hYTw",
-      "name": "Peppa Pig Français - Chaîne Officielle",
-      "url": "https://www.youtube.com/@PeppaPigFrancaisOfficielle",
-      "feedUrl": "https://www.youtube.com/feeds/videos.xml?channel_id=UCXptamDYEVcU4JCio30hYTw",
-      "ok": true,
-      "error": null,
-      "videos": [
-        {
-          "id": "zn_GpE24ryE",
-          "title": "Les Histoires de Peppa Pig 🎃 Sentier Lumineux d’Halloween ! 👻 LEGO DUPLO Épisodes Complets",
-          "publishedAt": "2026-11-04T12:00:26+00:00",
-          "url": "https://www.youtube.com/watch?v=zn_GpE24ryE",
-          "thumbnail": "https://i3.ytimg.com/vi/zn_GpE24ryE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "zGCT0qBJsp0",
-          "title": "🔴 Peppa Pig BÉBÉ EVIE Épisodes EN DIRECT 🍼 Meilleurs Moments d’Evie! 🥹 Dessins Animés pour Enfants",
-          "publishedAt": "2026-11-04T09:46:08+00:00",
-          "url": "https://www.youtube.com/watch?v=zGCT0qBJsp0",
-          "thumbnail": "https://i3.ytimg.com/vi/zGCT0qBJsp0/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
-        },
-        {
-          "id": "st2bkLJjou0",
-          "title": "🌙 Histoires du Soir d'Halloween avec Peppa & Evie 🎃 8 Heures Douces | Épisodes Complets",
-          "publishedAt": "2026-11-04T06:09:20+00:00",
-          "url": "https://www.youtube.com/watch?v=st2bkLJjou0",
-          "thumbnail": "https://i4.ytimg.com/vi/st2bkLJjou0/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "KidKZ5rPlWI",
-          "title": "🔴 EN DIRECT : Peppa Pig & Baby Evie : GRANDE Surprise d'Halloween ! 🎃👻 Épisodes Complets",
-          "publishedAt": "2026-11-04T05:42:17+00:00",
-          "url": "https://www.youtube.com/watch?v=KidKZ5rPlWI",
-          "thumbnail": "https://i4.ytimg.com/vi/KidKZ5rPlWI/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": true
-        },
-        {
-          "id": "edEk8L6ZpU4",
-          "title": "🔴 8 Heures de Peppa Pig & Baby Evie à HALLOWEEN ! 👻 Moments Effrayants 🎃 Épisodes Complets | 4K",
-          "publishedAt": "2026-11-03T18:06:05+00:00",
-          "url": "https://www.youtube.com/watch?v=edEk8L6ZpU4",
-          "thumbnail": "https://i2.ytimg.com/vi/edEk8L6ZpU4/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": true
-        },
-        {
-          "id": "kwJCflVrCXk",
-          "title": "Peppa Pig Se Met Sous un Parapluie GÉANT ! ☔ | Apprendre les Poèmes | Nouveaux Épisodes Complets",
-          "publishedAt": "2026-11-03T16:00:23+00:00",
-          "url": "https://www.youtube.com/watch?v=kwJCflVrCXk",
-          "thumbnail": "https://i4.ytimg.com/vi/kwJCflVrCXk/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "NC2efYHkNz4",
-          "title": "Les histoires de Peppa Pig 🚨Le cauchemar de George 🎃 Épisodes de Peppa Pig",
-          "publishedAt": "2026-10-31T11:00:26+00:00",
-          "url": "https://www.youtube.com/watch?v=NC2efYHkNz4",
-          "thumbnail": "https://i3.ytimg.com/vi/NC2efYHkNz4/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "bZT9x6g96SA",
-          "title": "Les histoires de Peppa Pig 🎃 Parcours lumineux d'Halloween 🦇 Épisodes de Peppa Pig",
-          "publishedAt": "2026-10-30T11:00:39+00:00",
-          "url": "https://www.youtube.com/watch?v=bZT9x6g96SA",
-          "thumbnail": "https://i3.ytimg.com/vi/bZT9x6g96SA/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "Wp8rgxr0rPI",
-          "title": "Spécial Halloween de Peppa Pig | La Fête des Citrouilles 🎃 | Nouveaux Épisodes Complets | 4 Heures",
-          "publishedAt": "2026-10-28T15:00:26+00:00",
-          "url": "https://www.youtube.com/watch?v=Wp8rgxr0rPI",
-          "thumbnail": "https://i4.ytimg.com/vi/Wp8rgxr0rPI/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "3NouuhGKxW4",
-          "title": "Peppa Pig joue à être un PAPILLON ! 🦋 | Déguisements de Papillon | Nouveaux Épisodes Complets",
-          "publishedAt": "2026-10-27T15:00:28+00:00",
-          "url": "https://www.youtube.com/watch?v=3NouuhGKxW4",
-          "thumbnail": "https://i4.ytimg.com/vi/3NouuhGKxW4/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "EDVMKzHNm3k",
-          "title": "Les histoires de Peppa Pig 🩷 Paillettes vs Ombres 🖤 Épisodes de Peppa Pig",
-          "publishedAt": "2026-10-24T11:00:31+00:00",
-          "url": "https://www.youtube.com/watch?v=EDVMKzHNm3k",
-          "thumbnail": "https://i2.ytimg.com/vi/EDVMKzHNm3k/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "Y0Jgpp5EBOs",
-          "title": "Peppa Pig et George choisissent leur CITROUILLE PRÉFÉRÉE ! 🎃🦖 #PeppaPigTales #Shorts",
-          "publishedAt": "2026-10-23T12:00:20+00:00",
-          "url": "https://www.youtube.com/shorts/Y0Jgpp5EBOs",
-          "thumbnail": "https://i2.ytimg.com/vi/Y0Jgpp5EBOs/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "K4PnF22tfpM",
-          "title": "Les histoires de Peppa Pig 🎃 L'effrayant hôtel d'Halloween 👻 Épisodes de Peppa Pig",
-          "publishedAt": "2026-10-23T11:00:21+00:00",
-          "url": "https://www.youtube.com/watch?v=K4PnF22tfpM",
-          "thumbnail": "https://i4.ytimg.com/vi/K4PnF22tfpM/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "10CErnkkaOA",
-          "title": "Peppa Pig et Baby Evie : PREMIÈRE FÊTE D'HALLOWEEN ! 🎃 | Histoires de Peppa | Épisodes Complets",
-          "publishedAt": "2026-10-21T13:45:03+00:00",
-          "url": "https://www.youtube.com/watch?v=10CErnkkaOA",
-          "thumbnail": "https://i2.ytimg.com/vi/10CErnkkaOA/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "P1kT4REqdDU",
-          "title": "Peppa Pig se DÉGUISE en VIKING! ⚔️🛡️ | Journée Viking | Nouveaux Épisodes Complets",
-          "publishedAt": "2026-10-20T12:30:32+00:00",
-          "url": "https://www.youtube.com/watch?v=P1kT4REqdDU",
-          "thumbnail": "https://i1.ytimg.com/vi/P1kT4REqdDU/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        }
-      ]
-    },
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
       "name": "T'choupi (officiel)",
@@ -713,7 +538,7 @@
         {
           "id": "dSvKAif5e6c",
           "title": "🔴VIVRE: Des jeux créatifs avec Bluey et ses amis! 💭💙| Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-11-03T12:23:20+00:00",
+          "publishedAt": "2026-11-05T05:41:18+00:00",
           "url": "https://www.youtube.com/watch?v=dSvKAif5e6c",
           "thumbnail": "https://i1.ytimg.com/vi/dSvKAif5e6c/hqdefault.jpg",
           "durationSeconds": null,
@@ -886,6 +711,17 @@
       "error": null,
       "videos": [
         {
+          "id": "rap3Yi7kvVw",
+          "title": "J’arrive à faire du roller ! 😄 Simon | Épisodes Complets | 30m | S2 | Dessin animé",
+          "publishedAt": "2026-11-04T15:00:20+00:00",
+          "url": "https://www.youtube.com/watch?v=rap3Yi7kvVw",
+          "thumbnail": "https://i3.ytimg.com/vi/rap3Yi7kvVw/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "dVYeONtobYU",
           "title": "Je suis plus ton copain | Simon | Épisode Complet S1 | Dessin animé pour enfants",
           "publishedAt": "2026-11-03T15:00:15+00:00",
@@ -1038,17 +874,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
-        },
-        {
-          "id": "R5PMtCRUtbQ",
-          "title": "Il est bizarre papa | Simon | Épisode Complet S1 | Dessin animé pour enfants",
-          "publishedAt": "2026-10-20T14:00:23+00:00",
-          "url": "https://www.youtube.com/watch?v=R5PMtCRUtbQ",
-          "thumbnail": "https://i3.ytimg.com/vi/R5PMtCRUtbQ/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -1060,6 +885,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "lmtrNeSCg38",
+          "title": "C'est l'heure du goûter ! | Bing Français",
+          "publishedAt": "2026-11-04T16:00:07+00:00",
+          "url": "https://www.youtube.com/watch?v=lmtrNeSCg38",
+          "thumbnail": "https://i1.ytimg.com/vi/lmtrNeSCg38/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "KE5gz8ZO9J4",
           "title": "Bing Français Épisodes Complets | 5x Épisodes | Bing Français",
@@ -1212,17 +1048,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "-Ir3y2sNu6g",
-          "title": "Bing Français Épisodes Complets | 10x Épisodes | Bing Français",
-          "publishedAt": "2026-09-12T08:00:19+00:00",
-          "url": "https://www.youtube.com/watch?v=-Ir3y2sNu6g",
-          "thumbnail": "https://i2.ytimg.com/vi/-Ir3y2sNu6g/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
           "likelyLive": false
         }
       ]
