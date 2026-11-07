@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-06T12:59:34+00:00",
+  "generatedAt": "2026-11-07T11:45:58+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -10,6 +10,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "RZuQvGNixYY",
+          "title": "T'Choupi à l'école #shorts",
+          "publishedAt": "2026-11-06T23:00:19+00:00",
+          "url": "https://www.youtube.com/shorts/RZuQvGNixYY",
+          "thumbnail": "https://i3.ytimg.com/vi/RZuQvGNixYY/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "4Yrq5XefTEE",
           "title": "T'choupi à l'école 📷 Le jour de la photo de classe (EP.26)  - dessin animé pour enfants #tchoupi",
@@ -163,17 +174,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "sCXfbBHMZRo",
-          "title": "T'choupi à l'école #shorts",
-          "publishedAt": "2026-09-18T22:00:20+00:00",
-          "url": "https://www.youtube.com/shorts/sCXfbBHMZRo",
-          "thumbnail": "https://i4.ytimg.com/vi/sCXfbBHMZRo/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -185,6 +185,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "y82bbUQRUSM",
+          "title": "⭐️ Bonne nuit mes étoiles ☁️ | Compilation toute douce de Petit Ours Brun",
+          "publishedAt": "2026-11-07T09:00:37+00:00",
+          "url": "https://www.youtube.com/watch?v=y82bbUQRUSM",
+          "thumbnail": "https://i2.ytimg.com/vi/y82bbUQRUSM/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "DC1E-uCgpaE",
           "title": "Petit Ours Brun fait des farces pour Halloween 🎃😂 | Compilation d'Halloween pour enfants",
@@ -334,17 +345,6 @@
           "publishedAt": "2026-09-11T08:00:13+00:00",
           "url": "https://www.youtube.com/shorts/WQXJ9EB3EZc",
           "thumbnail": "https://i4.ytimg.com/vi/WQXJ9EB3EZc/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "AZ9oJwbgb_c",
-          "title": "🎫 Petit Ours Brun contrôle les billet 🎫 #shorts #PetitOursBrun #dessinanime",
-          "publishedAt": "2026-09-06T08:00:00+00:00",
-          "url": "https://www.youtube.com/shorts/AZ9oJwbgb_c",
-          "thumbnail": "https://i2.ytimg.com/vi/AZ9oJwbgb_c/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
           "likelyLong": false,
@@ -536,6 +536,17 @@
       "error": null,
       "videos": [
         {
+          "id": "Ek_Bp5CFDjs",
+          "title": "Bluey et Bingo jouent au « jeu du silence » !🤐💙| Bluey Français Chaîne Officielle",
+          "publishedAt": "2026-11-06T16:00:00+00:00",
+          "url": "https://www.youtube.com/watch?v=Ek_Bp5CFDjs",
+          "thumbnail": "https://i2.ytimg.com/vi/Ek_Bp5CFDjs/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "dSvKAif5e6c",
           "title": "🔴VIVRE: Des jeux créatifs avec Bluey et ses amis! 💭💙| Bluey Français Chaîne Officielle",
           "publishedAt": "2026-11-05T05:41:18+00:00",
@@ -688,17 +699,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "8nFz8MFq3d4",
-          "title": "Bluey et Bingo ont deux baby-sitters!💙😄💤 | Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-09-13T14:00:06+00:00",
-          "url": "https://www.youtube.com/watch?v=8nFz8MFq3d4",
-          "thumbnail": "https://i1.ytimg.com/vi/8nFz8MFq3d4/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -710,6 +710,39 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "Pf1kG2fj4P0",
+          "title": "Pas de dispute pour les super héros | Simon | Épisode Complet S5 | Dessin animé pour enfants",
+          "publishedAt": "2026-11-07T07:00:17+00:00",
+          "url": "https://www.youtube.com/watch?v=Pf1kG2fj4P0",
+          "thumbnail": "https://i1.ytimg.com/vi/Pf1kG2fj4P0/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
+          "id": "y0ASwGtY-0M",
+          "title": "Il est à nous, ce trésor ! 💎 | Simon #shorts",
+          "publishedAt": "2026-11-06T15:00:22+00:00",
+          "url": "https://www.youtube.com/shorts/y0ASwGtY-0M",
+          "thumbnail": "https://i2.ytimg.com/vi/y0ASwGtY-0M/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
+          "id": "WtjUPpYR-CM",
+          "title": "Vive Noël avec Simon ! 🎅 Compilation des chansons de Simon",
+          "publishedAt": "2026-11-06T14:00:06+00:00",
+          "url": "https://www.youtube.com/watch?v=WtjUPpYR-CM",
+          "thumbnail": "https://i4.ytimg.com/vi/WtjUPpYR-CM/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "rap3Yi7kvVw",
           "title": "J’arrive à faire du roller ! 😄 Simon | Épisodes Complets | 30m | S2 | Dessin animé",
@@ -841,39 +874,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
-        },
-        {
-          "id": "uQ3r97wKoCU",
-          "title": "Je suis super méga fort ! 💪 | Simon #shorts",
-          "publishedAt": "2026-10-23T14:00:08+00:00",
-          "url": "https://www.youtube.com/shorts/uQ3r97wKoCU",
-          "thumbnail": "https://i2.ytimg.com/vi/uQ3r97wKoCU/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "xKL1KYU8_9g",
-          "title": "Oh non, il n’y a plus de lumière ! ⚡ Simon | Épisodes Complets | 30m | S2 | Dessin animé",
-          "publishedAt": "2026-10-23T14:00:04+00:00",
-          "url": "https://www.youtube.com/watch?v=xKL1KYU8_9g",
-          "thumbnail": "https://i1.ytimg.com/vi/xKL1KYU8_9g/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "9CmZreFcgdM",
-          "title": "Attends, je vais t'aider ! 💛 Simon | Épisodes Complets | 30m | S1 | Dessin animé",
-          "publishedAt": "2026-10-21T14:00:01+00:00",
-          "url": "https://www.youtube.com/watch?v=9CmZreFcgdM",
-          "thumbnail": "https://i2.ytimg.com/vi/9CmZreFcgdM/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
         }
       ]
     },
@@ -885,6 +885,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "VwIrlr_Oub0",
+          "title": "Bing Français Épisodes Complets | 10x Épisodes | Bing Français",
+          "publishedAt": "2026-11-07T09:00:19+00:00",
+          "url": "https://www.youtube.com/watch?v=VwIrlr_Oub0",
+          "thumbnail": "https://i3.ytimg.com/vi/VwIrlr_Oub0/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "lmtrNeSCg38",
           "title": "C'est l'heure du goûter ! | Bing Français",
@@ -1037,17 +1048,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "DoO-AT5F0C4",
-          "title": "C'est l'heure du bain ! | Bing Français",
-          "publishedAt": "2026-09-16T15:00:33+00:00",
-          "url": "https://www.youtube.com/watch?v=DoO-AT5F0C4",
-          "thumbnail": "https://i1.ytimg.com/vi/DoO-AT5F0C4/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
