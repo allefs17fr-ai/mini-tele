@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-07T11:45:58+00:00",
+  "generatedAt": "2026-11-08T11:58:05+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -361,6 +361,17 @@
       "error": null,
       "videos": [
         {
+          "id": "2uzU-FWBC7I",
+          "title": "Trotro est amoureux ! 😍 I Compilation pour enfant I 30 minutes",
+          "publishedAt": "2026-11-08T09:00:28+00:00",
+          "url": "https://www.youtube.com/watch?v=2uzU-FWBC7I",
+          "thumbnail": "https://i3.ytimg.com/vi/2uzU-FWBC7I/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "q9i-Apm1LPI",
           "title": "Trotro et le petit nid d'oiseau 🪺🥰 I Compilation pour enfant",
           "publishedAt": "2026-11-06T09:00:03+00:00",
@@ -509,17 +520,6 @@
           "publishedAt": "2026-10-07T08:00:24+00:00",
           "url": "https://www.youtube.com/watch?v=7NZs-qDntP0",
           "thumbnail": "https://i4.ytimg.com/vi/7NZs-qDntP0/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "sdLNPXM26lY",
-          "title": "Trotro et la cabane magique 🤫✨ I Compilation pour enfant",
-          "publishedAt": "2026-10-04T08:00:04+00:00",
-          "url": "https://www.youtube.com/watch?v=sdLNPXM26lY",
-          "thumbnail": "https://i4.ytimg.com/vi/sdLNPXM26lY/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
@@ -711,6 +711,17 @@
       "error": null,
       "videos": [
         {
+          "id": "v3KKEdmtmP8",
+          "title": "Oh non ! Professeur Wolf triche ! 😮 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
+          "publishedAt": "2026-11-08T07:00:07+00:00",
+          "url": "https://www.youtube.com/watch?v=v3KKEdmtmP8",
+          "thumbnail": "https://i3.ytimg.com/vi/v3KKEdmtmP8/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "Pf1kG2fj4P0",
           "title": "Pas de dispute pour les super héros | Simon | Épisode Complet S5 | Dessin animé pour enfants",
           "publishedAt": "2026-11-07T07:00:17+00:00",
@@ -859,17 +870,6 @@
           "publishedAt": "2026-10-25T15:00:19+00:00",
           "url": "https://www.youtube.com/watch?v=-LqXT0Qzxn8",
           "thumbnail": "https://i2.ytimg.com/vi/-LqXT0Qzxn8/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "KLETt6C4Oqo",
-          "title": "Allez Lou, viens avec moi ! 💙 Simon | Épisodes Complets | 1h | S1 | Dessin animé",
-          "publishedAt": "2026-10-24T14:00:08+00:00",
-          "url": "https://www.youtube.com/watch?v=KLETt6C4Oqo",
-          "thumbnail": "https://i4.ytimg.com/vi/KLETt6C4Oqo/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "c0-4adBTI_I",
+          "title": "🎵 TOP 10 COMPTINES POUR ENFANTS | Chansons Éducatives pour Apprendre en Chantant",
+          "publishedAt": "2026-11-07T18:31:32+00:00",
+          "url": "https://www.youtube.com/watch?v=c0-4adBTI_I",
+          "thumbnail": "https://i4.ytimg.com/vi/c0-4adBTI_I/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "oA9Qhb2YV4Q",
           "title": "3 CONTES POUR ENFANTS ✨ Les Chaussons Rouges + Boucle d’Or + Heidi | Dessin Animé 3D",
           "publishedAt": "2026-10-31T15:30:09+00:00",
@@ -1570,17 +1581,6 @@
           "thumbnail": "https://i1.ytimg.com/vi/L5iiy7SwRQM/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "yacjbMtW5f8",
-          "title": "TOP 5 COMPTINES ÉDUCATIVES | Apprendre en chantant | Les P’tits Z’Amis",
-          "publishedAt": "2026-09-18T14:30:11+00:00",
-          "url": "https://www.youtube.com/watch?v=yacjbMtW5f8",
-          "thumbnail": "https://i2.ytimg.com/vi/yacjbMtW5f8/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
         }
