@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T11:58:05+00:00",
+  "generatedAt": "2026-11-09T13:57:40+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -394,17 +394,6 @@
           "likelyLive": false
         },
         {
-          "id": "ct5u0scfJZs",
-          "title": "🔴 Passe un moment avec TROTRO ! ⭐️ Épisodes EN DIRECT",
-          "publishedAt": "2026-11-02T14:41:08+00:00",
-          "url": "https://www.youtube.com/watch?v=ct5u0scfJZs",
-          "thumbnail": "https://i4.ytimg.com/vi/ct5u0scfJZs/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
-        },
-        {
           "id": "1XAq09zMKj4",
           "title": "Trotro devient un petit monstre pour Halloween 😈🎃 I Compilation pour enfant",
           "publishedAt": "2026-10-30T09:00:37+00:00",
@@ -524,6 +513,17 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
+        },
+        {
+          "id": "sdLNPXM26lY",
+          "title": "Trotro et la cabane magique 🤫✨ I Compilation pour enfant",
+          "publishedAt": "2026-10-04T08:00:04+00:00",
+          "url": "https://www.youtube.com/watch?v=sdLNPXM26lY",
+          "thumbnail": "https://i4.ytimg.com/vi/sdLNPXM26lY/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
         }
       ]
     },
@@ -535,6 +535,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "v8GWXEkdn7A",
+          "title": "Bluey et Bingo jouent au « ballon de yoga »!﻿😄🎾 | Bluey Français Chaîne Officielle",
+          "publishedAt": "2026-11-08T15:00:08+00:00",
+          "url": "https://www.youtube.com/watch?v=v8GWXEkdn7A",
+          "thumbnail": "https://i3.ytimg.com/vi/v8GWXEkdn7A/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "Ek_Bp5CFDjs",
           "title": "Bluey et Bingo jouent au « jeu du silence » !🤐💙| Bluey Français Chaîne Officielle",
@@ -688,17 +699,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": true
-        },
-        {
-          "id": "38xJVyQNjNs",
-          "title": "Bluey apprend à marcher!💙🍼👶 | Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-09-15T15:00:37+00:00",
-          "url": "https://www.youtube.com/watch?v=38xJVyQNjNs",
-          "thumbnail": "https://i4.ytimg.com/vi/38xJVyQNjNs/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "ZQTpC3hq6Bk",
+          "title": "C'est ton anniversaire ! 🎉 Gâteau et cadeaux !",
+          "publishedAt": "2026-11-08T16:15:13+00:00",
+          "url": "https://www.youtube.com/shorts/ZQTpC3hq6Bk",
+          "thumbnail": "https://i3.ytimg.com/vi/ZQTpC3hq6Bk/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "c0-4adBTI_I",
           "title": "🎵 TOP 10 COMPTINES POUR ENFANTS | Chansons Éducatives pour Apprendre en Chantant",
           "publishedAt": "2026-11-07T18:31:32+00:00",
@@ -1568,17 +1579,6 @@
           "publishedAt": "2026-09-20T16:30:02+00:00",
           "url": "https://www.youtube.com/shorts/MKB-PBT5iIE",
           "thumbnail": "https://i2.ytimg.com/vi/MKB-PBT5iIE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "L5iiy7SwRQM",
-          "title": "Cours vite aux toilettes ! 😂🚽 #shorts",
-          "publishedAt": "2026-09-19T16:45:37+00:00",
-          "url": "https://www.youtube.com/shorts/L5iiy7SwRQM",
-          "thumbnail": "https://i1.ytimg.com/vi/L5iiy7SwRQM/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
           "likelyLong": false,
