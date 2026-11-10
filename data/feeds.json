@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-09T13:57:40+00:00",
+  "generatedAt": "2026-11-10T13:31:36+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -711,6 +711,17 @@
       "error": null,
       "videos": [
         {
+          "id": "lQHLLnBive0",
+          "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
+          "publishedAt": "2026-11-10T13:12:12+00:00",
+          "url": "https://www.youtube.com/watch?v=lQHLLnBive0",
+          "thumbnail": "https://i1.ytimg.com/vi/lQHLLnBive0/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": true
+        },
+        {
           "id": "v3KKEdmtmP8",
           "title": "Oh non ! Professeur Wolf triche ! 😮 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
           "publishedAt": "2026-11-08T07:00:07+00:00",
@@ -819,17 +830,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
-        },
-        {
-          "id": "O_lDHikFUoY",
-          "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
-          "publishedAt": "2026-10-29T07:33:46+00:00",
-          "url": "https://www.youtube.com/watch?v=O_lDHikFUoY",
-          "thumbnail": "https://i4.ytimg.com/vi/O_lDHikFUoY/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
         },
         {
           "id": "zQYGeVoc_3Q",
