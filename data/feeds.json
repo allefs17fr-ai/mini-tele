@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T13:31:36+00:00",
+  "generatedAt": "2026-11-11T12:46:22+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -361,6 +361,17 @@
       "error": null,
       "videos": [
         {
+          "id": "MDDc-3JT4Mk",
+          "title": "Trotro fait trop de bruit, chut ! 🤫 I Compilation pour enfant I 1 heure",
+          "publishedAt": "2026-11-11T09:00:08+00:00",
+          "url": "https://www.youtube.com/watch?v=MDDc-3JT4Mk",
+          "thumbnail": "https://i2.ytimg.com/vi/MDDc-3JT4Mk/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "2uzU-FWBC7I",
           "title": "Trotro est amoureux ! 😍 I Compilation pour enfant I 30 minutes",
           "publishedAt": "2026-11-08T09:00:28+00:00",
@@ -509,17 +520,6 @@
           "publishedAt": "2026-10-07T08:00:24+00:00",
           "url": "https://www.youtube.com/watch?v=7NZs-qDntP0",
           "thumbnail": "https://i4.ytimg.com/vi/7NZs-qDntP0/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "sdLNPXM26lY",
-          "title": "Trotro et la cabane magique 🤫✨ I Compilation pour enfant",
-          "publishedAt": "2026-10-04T08:00:04+00:00",
-          "url": "https://www.youtube.com/watch?v=sdLNPXM26lY",
-          "thumbnail": "https://i4.ytimg.com/vi/sdLNPXM26lY/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
@@ -711,6 +711,28 @@
       "error": null,
       "videos": [
         {
+          "id": "3jjaPWh_wAE",
+          "title": "Mon costume a disparu ! 😨 Simon | Épisodes Complets | 45m | S2 | Dessin animé",
+          "publishedAt": "2026-11-11T07:00:37+00:00",
+          "url": "https://www.youtube.com/watch?v=3jjaPWh_wAE",
+          "thumbnail": "https://i4.ytimg.com/vi/3jjaPWh_wAE/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
+          "id": "aVPcs1mpQ1c",
+          "title": "Pas sommeil | Simon | Épisode Complet S1 | Dessin animé pour enfants",
+          "publishedAt": "2026-11-10T15:00:39+00:00",
+          "url": "https://www.youtube.com/watch?v=aVPcs1mpQ1c",
+          "thumbnail": "https://i2.ytimg.com/vi/aVPcs1mpQ1c/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "lQHLLnBive0",
           "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
           "publishedAt": "2026-11-10T13:12:12+00:00",
@@ -852,28 +874,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": true
-        },
-        {
-          "id": "w_GR-VvaZWw",
-          "title": "Trop fort | Simon | Épisode Complet S1 | Dessin animé pour enfants",
-          "publishedAt": "2026-10-27T15:00:03+00:00",
-          "url": "https://www.youtube.com/watch?v=w_GR-VvaZWw",
-          "thumbnail": "https://i4.ytimg.com/vi/w_GR-VvaZWw/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "-LqXT0Qzxn8",
-          "title": "Je veux pas aller au lit ! | Simon | Épisodes Complets | 30m | S2 | Dessin animé",
-          "publishedAt": "2026-10-25T15:00:19+00:00",
-          "url": "https://www.youtube.com/watch?v=-LqXT0Qzxn8",
-          "thumbnail": "https://i2.ytimg.com/vi/-LqXT0Qzxn8/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
         }
       ]
     },
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "1fK5-KFsUHU",
+          "title": "Danse et saute en l'air, c'est ton anniversaire !",
+          "publishedAt": "2026-11-10T16:15:36+00:00",
+          "url": "https://www.youtube.com/shorts/1fK5-KFsUHU",
+          "thumbnail": "https://i2.ytimg.com/vi/1fK5-KFsUHU/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "ZQTpC3hq6Bk",
           "title": "C'est ton anniversaire ! 🎉 Gâteau et cadeaux !",
           "publishedAt": "2026-11-08T16:15:13+00:00",
@@ -1568,17 +1579,6 @@
           "publishedAt": "2026-09-23T14:00:13+00:00",
           "url": "https://www.youtube.com/shorts/fHQy8CbBYu4",
           "thumbnail": "https://i3.ytimg.com/vi/fHQy8CbBYu4/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "MKB-PBT5iIE",
-          "title": "Cours vite aux toilettes ! 😂🚽 #shorts",
-          "publishedAt": "2026-09-20T16:30:02+00:00",
-          "url": "https://www.youtube.com/shorts/MKB-PBT5iIE",
-          "thumbnail": "https://i2.ytimg.com/vi/MKB-PBT5iIE/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
           "likelyLong": false,
