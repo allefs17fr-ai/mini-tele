@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-11T12:46:22+00:00",
+  "generatedAt": "2026-11-12T13:48:38+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -10,6 +10,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "JsI3oITj-8E",
+          "title": "T'Choupi et Doudou 🎹 T'choupi musicien (EP. 31) - dessin animé pour enfants #tchoupi",
+          "publishedAt": "2026-11-11T15:00:36+00:00",
+          "url": "https://www.youtube.com/watch?v=JsI3oITj-8E",
+          "thumbnail": "https://i3.ytimg.com/vi/JsI3oITj-8E/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "RZuQvGNixYY",
           "title": "T'Choupi à l'école #shorts",
@@ -161,17 +172,6 @@
           "thumbnail": "https://i1.ytimg.com/vi/DEnFUNc8qLg/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "G_TFUJ-wxic",
-          "title": "🛏️ T'choupi et ses amis - La bataille de polochons (EP.15) - dessin animé - épisode #tchoupi",
-          "publishedAt": "2026-09-22T22:00:15+00:00",
-          "url": "https://www.youtube.com/watch?v=G_TFUJ-wxic",
-          "thumbnail": "https://i4.ytimg.com/vi/G_TFUJ-wxic/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
         }
@@ -536,6 +536,17 @@
       "error": null,
       "videos": [
         {
+          "id": "bjxt5Wmy7Fg",
+          "title": "🔴VIVRE: Bluey et Bingo s'amusent dans la cour de récréation!💙🤩🛝| Bluey Français Chaîne Officielle",
+          "publishedAt": "2026-11-12T11:12:29+00:00",
+          "url": "https://www.youtube.com/watch?v=bjxt5Wmy7Fg",
+          "thumbnail": "https://i3.ytimg.com/vi/bjxt5Wmy7Fg/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": true
+        },
+        {
           "id": "v8GWXEkdn7A",
           "title": "Bluey et Bingo jouent au « ballon de yoga »!﻿😄🎾 | Bluey Français Chaîne Officielle",
           "publishedAt": "2026-11-08T15:00:08+00:00",
@@ -688,17 +699,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "wL5FLHgvHYw",
-          "title": "🔴VIVRE:  ﻿Bluey et Indy vont au marché!💙🎪 | Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-09-21T04:41:06+00:00",
-          "url": "https://www.youtube.com/watch?v=wL5FLHgvHYw",
-          "thumbnail": "https://i4.ytimg.com/vi/wL5FLHgvHYw/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
         }
       ]
     },
@@ -886,6 +886,17 @@
       "error": null,
       "videos": [
         {
+          "id": "lOz3I0y_4xQ",
+          "title": "Bing et Flop sont en train de construire des châteaux de sable ! | Bing Français",
+          "publishedAt": "2026-11-11T16:00:06+00:00",
+          "url": "https://www.youtube.com/watch?v=lOz3I0y_4xQ",
+          "thumbnail": "https://i1.ytimg.com/vi/lOz3I0y_4xQ/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "VwIrlr_Oub0",
           "title": "Bing Français Épisodes Complets | 10x Épisodes | Bing Français",
           "publishedAt": "2026-11-07T09:00:19+00:00",
@@ -1037,17 +1048,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "fcZjc6rhqnE",
-          "title": "Bing Français Épisodes Complets | 5x Épisodes | Bing Français",
-          "publishedAt": "2026-09-19T08:00:32+00:00",
-          "url": "https://www.youtube.com/watch?v=fcZjc6rhqnE",
-          "thumbnail": "https://i3.ytimg.com/vi/fcZjc6rhqnE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
           "likelyLive": false
         }
       ]
