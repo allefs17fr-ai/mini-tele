@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-12T13:48:38+00:00",
+  "generatedAt": "2026-11-13T13:10:46+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -361,6 +361,17 @@
       "error": null,
       "videos": [
         {
+          "id": "yzZOOjBuYwA",
+          "title": "🎶 Trotro se découvre une passion pour la musique 🤩 I Compilation pour enfant I 1 heure",
+          "publishedAt": "2026-11-13T09:00:10+00:00",
+          "url": "https://www.youtube.com/watch?v=yzZOOjBuYwA",
+          "thumbnail": "https://i2.ytimg.com/vi/yzZOOjBuYwA/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "MDDc-3JT4Mk",
           "title": "Trotro fait trop de bruit, chut ! 🤫 I Compilation pour enfant I 1 heure",
           "publishedAt": "2026-11-11T09:00:08+00:00",
@@ -509,17 +520,6 @@
           "publishedAt": "2026-10-09T08:00:07+00:00",
           "url": "https://www.youtube.com/watch?v=bffijuxvn4o",
           "thumbnail": "https://i3.ytimg.com/vi/bffijuxvn4o/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "7NZs-qDntP0",
-          "title": "Il est l'heure de laver le doudou de Trotro ! 🧸🫧 I Compilation pour enfant",
-          "publishedAt": "2026-10-07T08:00:24+00:00",
-          "url": "https://www.youtube.com/watch?v=7NZs-qDntP0",
-          "thumbnail": "https://i4.ytimg.com/vi/7NZs-qDntP0/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
@@ -711,6 +711,17 @@
       "error": null,
       "videos": [
         {
+          "id": "fBRi3zgY1aE",
+          "title": "Pas le droit de m'attraper ! 😜 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
+          "publishedAt": "2026-11-13T11:00:19+00:00",
+          "url": "https://www.youtube.com/watch?v=fBRi3zgY1aE",
+          "thumbnail": "https://i3.ytimg.com/vi/fBRi3zgY1aE/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "3jjaPWh_wAE",
           "title": "Mon costume a disparu ! 😨 Simon | Épisodes Complets | 45m | S2 | Dessin animé",
           "publishedAt": "2026-11-11T07:00:37+00:00",
@@ -731,17 +742,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "lQHLLnBive0",
-          "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
-          "publishedAt": "2026-11-10T13:12:12+00:00",
-          "url": "https://www.youtube.com/watch?v=lQHLLnBive0",
-          "thumbnail": "https://i1.ytimg.com/vi/lQHLLnBive0/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
         },
         {
           "id": "v3KKEdmtmP8",
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "6YGgii4Hc_w",
+          "title": "Brosse tes dents pour un sourire éclatant ! 😁",
+          "publishedAt": "2026-11-12T15:15:02+00:00",
+          "url": "https://www.youtube.com/shorts/6YGgii4Hc_w",
+          "thumbnail": "https://i3.ytimg.com/vi/6YGgii4Hc_w/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "1fK5-KFsUHU",
           "title": "Danse et saute en l'air, c'est ton anniversaire !",
           "publishedAt": "2026-11-10T16:15:36+00:00",
@@ -1570,17 +1581,6 @@
           "thumbnail": "https://i4.ytimg.com/vi/3l72Ox9r9Qo/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "fHQy8CbBYu4",
-          "title": "Cours vite aux toilettes ! 😂🚽 #shorts",
-          "publishedAt": "2026-09-23T14:00:13+00:00",
-          "url": "https://www.youtube.com/shorts/fHQy8CbBYu4",
-          "thumbnail": "https://i3.ytimg.com/vi/fHQy8CbBYu4/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
           "likelyLong": false,
           "likelyLive": false
         }
