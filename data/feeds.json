@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T13:10:46+00:00",
+  "generatedAt": "2026-11-14T12:15:11+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -10,6 +10,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "oUN5XwaLy1A",
+          "title": "T'Choupi à l'école #shorts",
+          "publishedAt": "2026-11-13T23:00:24+00:00",
+          "url": "https://www.youtube.com/shorts/oUN5XwaLy1A",
+          "thumbnail": "https://i4.ytimg.com/vi/oUN5XwaLy1A/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "JsI3oITj-8E",
           "title": "T'Choupi et Doudou 🎹 T'choupi musicien (EP. 31) - dessin animé pour enfants #tchoupi",
@@ -163,17 +174,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "DEnFUNc8qLg",
-          "title": "T'choupi à l'école #shorts",
-          "publishedAt": "2026-09-25T22:00:16+00:00",
-          "url": "https://www.youtube.com/shorts/DEnFUNc8qLg",
-          "thumbnail": "https://i1.ytimg.com/vi/DEnFUNc8qLg/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -185,6 +185,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "_xOlmB4Y62Y",
+          "title": "❄️ Petit Ours Brun est prêt pour l'hiver ! 🤍 | Compilation pour enfant | 1 heure",
+          "publishedAt": "2026-11-14T09:00:05+00:00",
+          "url": "https://www.youtube.com/watch?v=_xOlmB4Y62Y",
+          "thumbnail": "https://i4.ytimg.com/vi/_xOlmB4Y62Y/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "y82bbUQRUSM",
           "title": "⭐️ Bonne nuit mes étoiles ☁️ | Compilation toute douce de Petit Ours Brun",
@@ -337,17 +348,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "WQXJ9EB3EZc",
-          "title": "😟 Petit Ours Brun a peur de l'eau 😟 #shorts #PetitOursBrun #dessinanime",
-          "publishedAt": "2026-09-11T08:00:13+00:00",
-          "url": "https://www.youtube.com/shorts/WQXJ9EB3EZc",
-          "thumbnail": "https://i4.ytimg.com/vi/WQXJ9EB3EZc/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
@@ -536,6 +536,17 @@
       "error": null,
       "videos": [
         {
+          "id": "24BJRGrh4Bg",
+          "title": "1 HEURE de fun des fêtes🎄| M. Monkeyjocks vole tous les jouets!🧸🎁| Bluey Français Chaîne Officielle",
+          "publishedAt": "2026-11-13T16:00:13+00:00",
+          "url": "https://www.youtube.com/watch?v=24BJRGrh4Bg",
+          "thumbnail": "https://i3.ytimg.com/vi/24BJRGrh4Bg/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "bjxt5Wmy7Fg",
           "title": "🔴VIVRE: Bluey et Bingo s'amusent dans la cour de récréation!💙🤩🛝| Bluey Français Chaîne Officielle",
           "publishedAt": "2026-11-12T11:12:29+00:00",
@@ -688,17 +699,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "MlBSE9Ckwjg",
-          "title": "Muffin passe la soirée chez Bluey et Bingo! 💙 😯 💤 | Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-09-22T15:00:35+00:00",
-          "url": "https://www.youtube.com/watch?v=MlBSE9Ckwjg",
-          "thumbnail": "https://i2.ytimg.com/vi/MlBSE9Ckwjg/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -710,6 +710,28 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "Dx2R4QnBYRY",
+          "title": "C'est pas du jeu | Simon | Épisode Complet S5 | Dessin animé pour enfants",
+          "publishedAt": "2026-11-14T07:00:32+00:00",
+          "url": "https://www.youtube.com/watch?v=Dx2R4QnBYRY",
+          "thumbnail": "https://i1.ytimg.com/vi/Dx2R4QnBYRY/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
+          "id": "jrFAeKa8JT4",
+          "title": "Personne ne s’en prend à nous ! 💥 | Simon #shorts",
+          "publishedAt": "2026-11-13T15:00:31+00:00",
+          "url": "https://www.youtube.com/shorts/jrFAeKa8JT4",
+          "thumbnail": "https://i3.ytimg.com/vi/jrFAeKa8JT4/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "fBRi3zgY1aE",
           "title": "Pas le droit de m'attraper ! 😜 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
@@ -852,28 +874,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
-        },
-        {
-          "id": "zQYGeVoc_3Q",
-          "title": "Dernière part de gâteau ! 🍫 Simon | Épisodes Complets | 45m | S1+2+3+4 | Dessin animé",
-          "publishedAt": "2026-10-28T15:00:32+00:00",
-          "url": "https://www.youtube.com/watch?v=zQYGeVoc_3Q",
-          "thumbnail": "https://i3.ytimg.com/vi/zQYGeVoc_3Q/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "HKjsUI1Sfkw",
-          "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
-          "publishedAt": "2026-10-27T16:58:54+00:00",
-          "url": "https://www.youtube.com/watch?v=HKjsUI1Sfkw",
-          "thumbnail": "https://i1.ytimg.com/vi/HKjsUI1Sfkw/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
         }
       ]
     },
@@ -885,6 +885,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "v1zPv4gWviw",
+          "title": "Bing Français Épisodes Complets | 5x Épisodes | Bing Français",
+          "publishedAt": "2026-11-14T09:00:37+00:00",
+          "url": "https://www.youtube.com/watch?v=v1zPv4gWviw",
+          "thumbnail": "https://i3.ytimg.com/vi/v1zPv4gWviw/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "lOz3I0y_4xQ",
           "title": "Bing et Flop sont en train de construire des châteaux de sable ! | Bing Français",
@@ -1037,17 +1048,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "8NSBm43MqAg",
-          "title": "Bing trouve une grenouille dans le jardin et veut la garder ! | Bing Français",
-          "publishedAt": "2026-09-23T15:00:01+00:00",
-          "url": "https://www.youtube.com/watch?v=8NSBm43MqAg",
-          "thumbnail": "https://i1.ytimg.com/vi/8NSBm43MqAg/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "AVhgc7PD9Mo",
+          "title": "4 CONTES POUR ENFANTS 3D | Heidi, Boucle d’Or, Chaussons Rouges + Le Pêcheur",
+          "publishedAt": "2026-11-13T00:00:27+00:00",
+          "url": "https://www.youtube.com/watch?v=AVhgc7PD9Mo",
+          "thumbnail": "https://i2.ytimg.com/vi/AVhgc7PD9Mo/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "6YGgii4Hc_w",
           "title": "Brosse tes dents pour un sourire éclatant ! 😁",
           "publishedAt": "2026-11-12T15:15:02+00:00",
@@ -1568,17 +1579,6 @@
           "publishedAt": "2026-10-02T16:00:09+00:00",
           "url": "https://www.youtube.com/watch?v=1CS5AkY98eA",
           "thumbnail": "https://i2.ytimg.com/vi/1CS5AkY98eA/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "3l72Ox9r9Qo",
-          "title": "LE CHAUDRON MAGIQUE 🪄 | Conte Magique pour Enfants | Animation & Personnages Réels",
-          "publishedAt": "2026-09-25T15:30:06+00:00",
-          "url": "https://www.youtube.com/watch?v=3l72Ox9r9Qo",
-          "thumbnail": "https://i4.ytimg.com/vi/3l72Ox9r9Qo/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
