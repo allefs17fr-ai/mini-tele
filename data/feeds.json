@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T12:47:31+00:00",
+  "generatedAt": "2026-11-16T13:43:18+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "_6WRqcq93PY",
+          "title": "Cours vite aux Toilettes, lave tes mains et va jouer ! 💧",
+          "publishedAt": "2026-11-15T16:00:17+00:00",
+          "url": "https://www.youtube.com/shorts/_6WRqcq93PY",
+          "thumbnail": "https://i4.ytimg.com/vi/_6WRqcq93PY/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "TbF5YbKD3lo",
           "title": "Brosse tes dents pour un sourire éclatant ! 😁",
           "publishedAt": "2026-11-14T17:15:21+00:00",
@@ -1568,17 +1579,6 @@
           "publishedAt": "2026-10-16T15:30:09+00:00",
           "url": "https://www.youtube.com/watch?v=BTBmiHTD_7w",
           "thumbnail": "https://i3.ytimg.com/vi/BTBmiHTD_7w/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "lA0cgxas95c",
-          "title": "2 CONTES DE PRINCESSES 👑 La Reine des Neiges + Cendrillon | Dessin Animé 3D avec @lesptitszamis",
-          "publishedAt": "2026-10-10T19:28:04+00:00",
-          "url": "https://www.youtube.com/watch?v=lA0cgxas95c",
-          "thumbnail": "https://i1.ytimg.com/vi/lA0cgxas95c/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
