@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T13:43:18+00:00",
+  "generatedAt": "2026-11-17T14:30:52+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -10,6 +10,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "MWW1g6uhCwo",
+          "title": "T'Choupi EN DIRECT \"Le vélo rouge tout neuf\" 🚲 et autres épisodes - Dessins animés pour enfants",
+          "publishedAt": "2026-11-17T08:57:07+00:00",
+          "url": "https://www.youtube.com/watch?v=MWW1g6uhCwo",
+          "thumbnail": "https://i2.ytimg.com/vi/MWW1g6uhCwo/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": true
+        },
         {
           "id": "oUN5XwaLy1A",
           "title": "T'Choupi à l'école #shorts",
@@ -64,17 +75,6 @@
           "likelyShort": true,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "wcOaa9BTe58",
-          "title": "T'Choupi EN DIRECT \"Le vélo rouge tout neuf\" 🚲 et autres épisodes - Dessins animés pour enfants",
-          "publishedAt": "2026-09-23T07:41:21+00:00",
-          "url": "https://www.youtube.com/watch?v=wcOaa9BTe58",
-          "thumbnail": "https://i4.ytimg.com/vi/wcOaa9BTe58/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
         },
         {
           "id": "PisJb-3BjFM",
@@ -711,6 +711,17 @@
       "error": null,
       "videos": [
         {
+          "id": "MtfnsWIGUIU",
+          "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
+          "publishedAt": "2026-11-17T13:33:23+00:00",
+          "url": "https://www.youtube.com/watch?v=MtfnsWIGUIU",
+          "thumbnail": "https://i2.ytimg.com/vi/MtfnsWIGUIU/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": true
+        },
+        {
           "id": "fVFn2r9x3wg",
           "title": "Le plus grand circuit de train ! 🚂 Simon | Épisodes Complets | 45m | S2 | Dessin animé",
           "publishedAt": "2026-11-15T07:00:13+00:00",
@@ -862,17 +873,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "DMD5-IHPdbc",
-          "title": "On va tomber dans l’eau ! 💦 | Simon #shorts",
-          "publishedAt": "2026-10-30T15:00:30+00:00",
-          "url": "https://www.youtube.com/shorts/DMD5-IHPdbc",
-          "thumbnail": "https://i1.ytimg.com/vi/DMD5-IHPdbc/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
@@ -1245,6 +1245,28 @@
       "error": null,
       "videos": [
         {
+          "id": "gOL5dFH8U2o",
+          "title": "Il est né, le divin enfant",
+          "publishedAt": "2026-11-16T14:45:31+00:00",
+          "url": "https://www.youtube.com/watch?v=gOL5dFH8U2o",
+          "thumbnail": "https://i4.ytimg.com/vi/gOL5dFH8U2o/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
+          "id": "e0fXuVt5OPo",
+          "title": "Il est né, le divin enfant ✨⭐️ Karaoké 🎤🎶",
+          "publishedAt": "2026-11-16T14:44:27+00:00",
+          "url": "https://www.youtube.com/watch?v=e0fXuVt5OPo",
+          "thumbnail": "https://i2.ytimg.com/vi/e0fXuVt5OPo/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "i7gQj40MQes",
           "title": "Sur le pont d'Avignon",
           "publishedAt": "2026-10-24T07:55:09+00:00",
@@ -1385,28 +1407,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "FD2QMpIqjcE",
-          "title": "Au clair de la Lune",
-          "publishedAt": "2026-07-25T22:15:30+00:00",
-          "url": "https://www.youtube.com/watch?v=FD2QMpIqjcE",
-          "thumbnail": "https://i3.ytimg.com/vi/FD2QMpIqjcE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "KrLuJchq294",
-          "title": "Promenons-nous dans les bois",
-          "publishedAt": "2019-07-02T12:30:01+00:00",
-          "url": "https://www.youtube.com/watch?v=KrLuJchq294",
-          "thumbnail": "https://i4.ytimg.com/vi/KrLuJchq294/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
