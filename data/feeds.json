@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-17T14:30:52+00:00",
+  "generatedAt": "2026-11-18T14:06:39+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -361,6 +361,17 @@
       "error": null,
       "videos": [
         {
+          "id": "N5Xz5VWIlzg",
+          "title": "☺️ Trotro reçoit un compliment et devient timide 💕 I Compilation toute douce",
+          "publishedAt": "2026-11-18T09:00:05+00:00",
+          "url": "https://www.youtube.com/watch?v=N5Xz5VWIlzg",
+          "thumbnail": "https://i3.ytimg.com/vi/N5Xz5VWIlzg/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "yWTbZdJtjQQ",
           "title": "🩵 Trotro ne veut plus quitter son lit ! 😂 I Compilation pour enfant I 30 minutes",
           "publishedAt": "2026-11-15T09:00:13+00:00",
@@ -509,17 +520,6 @@
           "publishedAt": "2026-10-14T08:00:30+00:00",
           "url": "https://www.youtube.com/watch?v=mwaFOPiUyCM",
           "thumbnail": "https://i2.ytimg.com/vi/mwaFOPiUyCM/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "BT2NjA070n0",
-          "title": "Trotro adopte un poisson rouge ! 🥰 I Compilation pour enfant",
-          "publishedAt": "2026-10-11T08:00:38+00:00",
-          "url": "https://www.youtube.com/watch?v=BT2NjA070n0",
-          "thumbnail": "https://i3.ytimg.com/vi/BT2NjA070n0/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
@@ -711,6 +711,28 @@
       "error": null,
       "videos": [
         {
+          "id": "1uXDgUW2Y-M",
+          "title": "Lou à la recherche de la sirène ! 🧜‍♀️ Simon | Épisodes Complets | 30m | S5 | Dessin animé",
+          "publishedAt": "2026-11-18T07:00:24+00:00",
+          "url": "https://www.youtube.com/watch?v=1uXDgUW2Y-M",
+          "thumbnail": "https://i2.ytimg.com/vi/1uXDgUW2Y-M/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
+          "id": "z8O6agYvZt0",
+          "title": "La nuit dans la cabane | Simon | Épisode Complet S1 | Dessin animé pour enfants",
+          "publishedAt": "2026-11-17T15:00:36+00:00",
+          "url": "https://www.youtube.com/watch?v=z8O6agYvZt0",
+          "thumbnail": "https://i3.ytimg.com/vi/z8O6agYvZt0/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "MtfnsWIGUIU",
           "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
           "publishedAt": "2026-11-17T13:33:23+00:00",
@@ -851,28 +873,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "VuX-oZay_6c",
-          "title": "On joue aux pompiers ! 🚒 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
-          "publishedAt": "2026-11-01T15:00:25+00:00",
-          "url": "https://www.youtube.com/watch?v=VuX-oZay_6c",
-          "thumbnail": "https://i3.ytimg.com/vi/VuX-oZay_6c/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "XfoAhWrdQKQ",
-          "title": "J'ai vu un monstre des neiges ! 👀 Simon | Épisodes Complets | 1h | S3 | Dessin animé",
-          "publishedAt": "2026-10-31T15:00:36+00:00",
-          "url": "https://www.youtube.com/watch?v=XfoAhWrdQKQ",
-          "thumbnail": "https://i1.ytimg.com/vi/XfoAhWrdQKQ/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
           "likelyLive": false
         }
       ]
