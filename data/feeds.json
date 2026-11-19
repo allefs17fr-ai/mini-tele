@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T14:06:39+00:00",
+  "generatedAt": "2026-11-19T14:28:46+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -11,15 +11,15 @@
       "error": null,
       "videos": [
         {
-          "id": "MWW1g6uhCwo",
-          "title": "T'Choupi EN DIRECT \"Le vélo rouge tout neuf\" 🚲 et autres épisodes - Dessins animés pour enfants",
-          "publishedAt": "2026-11-17T08:57:07+00:00",
-          "url": "https://www.youtube.com/watch?v=MWW1g6uhCwo",
-          "thumbnail": "https://i2.ytimg.com/vi/MWW1g6uhCwo/hqdefault.jpg",
+          "id": "Q6EroFqxoeg",
+          "title": "T'choupi et ses amis 📞Le jeu du téléphone (EP.39) - dessin animé pour enfants #tchoupi",
+          "publishedAt": "2026-11-18T15:00:15+00:00",
+          "url": "https://www.youtube.com/watch?v=Q6EroFqxoeg",
+          "thumbnail": "https://i2.ytimg.com/vi/Q6EroFqxoeg/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
-          "likelyLive": true
+          "likelyLive": false
         },
         {
           "id": "oUN5XwaLy1A",
@@ -733,17 +733,6 @@
           "likelyLive": false
         },
         {
-          "id": "MtfnsWIGUIU",
-          "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
-          "publishedAt": "2026-11-17T13:33:23+00:00",
-          "url": "https://www.youtube.com/watch?v=MtfnsWIGUIU",
-          "thumbnail": "https://i2.ytimg.com/vi/MtfnsWIGUIU/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
-        },
-        {
           "id": "fVFn2r9x3wg",
           "title": "Le plus grand circuit de train ! 🚂 Simon | Épisodes Complets | 45m | S2 | Dessin animé",
           "publishedAt": "2026-11-15T07:00:13+00:00",
@@ -874,6 +863,17 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
+        },
+        {
+          "id": "VuX-oZay_6c",
+          "title": "On joue aux pompiers ! 🚒 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
+          "publishedAt": "2026-11-01T15:00:25+00:00",
+          "url": "https://www.youtube.com/watch?v=VuX-oZay_6c",
+          "thumbnail": "https://i3.ytimg.com/vi/VuX-oZay_6c/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
         }
       ]
     },
@@ -885,6 +885,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "auGyQ9pWS_4",
+          "title": "C'est l'heure du petit-déjeuner ! | Bing Français",
+          "publishedAt": "2026-11-18T16:00:12+00:00",
+          "url": "https://www.youtube.com/watch?v=auGyQ9pWS_4",
+          "thumbnail": "https://i2.ytimg.com/vi/auGyQ9pWS_4/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "v1zPv4gWviw",
           "title": "Bing Français Épisodes Complets | 5x Épisodes | Bing Français",
@@ -1037,17 +1048,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "JPq2cOwUz9I",
-          "title": "Bing Français Épisodes Complets | 10x Épisodes | Bing Français",
-          "publishedAt": "2026-09-26T08:00:16+00:00",
-          "url": "https://www.youtube.com/watch?v=JPq2cOwUz9I",
-          "thumbnail": "https://i3.ytimg.com/vi/JPq2cOwUz9I/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
           "likelyLive": false
         }
       ]
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "7lTY3EX4zt0",
+          "title": "Jette les ordures, nettoie tes jouets pour un monde propre !",
+          "publishedAt": "2026-11-18T16:45:18+00:00",
+          "url": "https://www.youtube.com/shorts/7lTY3EX4zt0",
+          "thumbnail": "https://i4.ytimg.com/vi/7lTY3EX4zt0/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "_6WRqcq93PY",
           "title": "Cours vite aux Toilettes, lave tes mains et va jouer ! 💧",
           "publishedAt": "2026-11-15T16:00:17+00:00",
@@ -1568,17 +1579,6 @@
           "publishedAt": "2026-10-23T15:00:11+00:00",
           "url": "https://www.youtube.com/watch?v=0rb3Ba3dkiE",
           "thumbnail": "https://i1.ytimg.com/vi/0rb3Ba3dkiE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "BTBmiHTD_7w",
-          "title": "🎃 Halloween : Des Bonbons ou un Sort ! 👻 | Conte pour Enfants | Dessin Animé 3D",
-          "publishedAt": "2026-10-16T15:30:09+00:00",
-          "url": "https://www.youtube.com/watch?v=BTBmiHTD_7w",
-          "thumbnail": "https://i3.ytimg.com/vi/BTBmiHTD_7w/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
