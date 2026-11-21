@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T14:05:02+00:00",
+  "generatedAt": "2026-11-21T13:30:30+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -186,6 +186,17 @@
       "error": null,
       "videos": [
         {
+          "id": "A3i-VXM6qGg",
+          "title": "🐱 Où est passé le chat de Petit Ours Brun ? Cherchons-le ensemble ! 🥰 | Compilation pour enfant",
+          "publishedAt": "2026-11-21T09:00:07+00:00",
+          "url": "https://www.youtube.com/watch?v=A3i-VXM6qGg",
+          "thumbnail": "https://i2.ytimg.com/vi/A3i-VXM6qGg/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "_xOlmB4Y62Y",
           "title": "❄️ Petit Ours Brun est prêt pour l'hiver ! 🤍 | Compilation pour enfant | 1 heure",
           "publishedAt": "2026-11-14T09:00:05+00:00",
@@ -337,17 +348,6 @@
           "durationSeconds": null,
           "likelyShort": true,
           "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "SDVFUOQWVuE",
-          "title": "Petit Ours Brun se déguise ! 🤩🐻 | 1 heure | Dessin animé",
-          "publishedAt": "2026-09-12T08:00:23+00:00",
-          "url": "https://www.youtube.com/watch?v=SDVFUOQWVuE",
-          "thumbnail": "https://i4.ytimg.com/vi/SDVFUOQWVuE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
           "likelyLive": false
         }
       ]
@@ -536,6 +536,17 @@
       "error": null,
       "videos": [
         {
+          "id": "rl1alZkX_os",
+          "title": "2 HEURES🎄 | Déjeuner de Noël avec Bluey et la famille Heeler! 🎅🍽️ | Bluey Français Chaîne Officielle",
+          "publishedAt": "2026-11-20T16:00:04+00:00",
+          "url": "https://www.youtube.com/watch?v=rl1alZkX_os",
+          "thumbnail": "https://i3.ytimg.com/vi/rl1alZkX_os/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "NqxLLruvwNw",
           "title": "🔴VIVRE: Bluey et Bingo s'amusent dans la cour de récréation!💙🤩🛝| Bluey Français Chaîne Officielle",
           "publishedAt": "2026-11-20T10:20:04+00:00",
@@ -688,17 +699,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": true
-        },
-        {
-          "id": "tFCFUg2Ivw0",
-          "title": "Bluey a des pouvoirs magiques!💙😲🪄 | Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-09-27T14:00:17+00:00",
-          "url": "https://www.youtube.com/watch?v=tFCFUg2Ivw0",
-          "thumbnail": "https://i1.ytimg.com/vi/tFCFUg2Ivw0/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -710,6 +710,28 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "IKc_TOqbqcQ",
+          "title": "Je vais le dire à Mamie | Simon | Épisode Complet S5 | Dessin animé pour enfants",
+          "publishedAt": "2026-11-21T07:00:28+00:00",
+          "url": "https://www.youtube.com/watch?v=IKc_TOqbqcQ",
+          "thumbnail": "https://i2.ytimg.com/vi/IKc_TOqbqcQ/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
+          "id": "FG4aP00D07M",
+          "title": "C'est de ta faute ! 😤 | Simon #shorts",
+          "publishedAt": "2026-11-20T15:00:08+00:00",
+          "url": "https://www.youtube.com/shorts/FG4aP00D07M",
+          "thumbnail": "https://i3.ytimg.com/vi/FG4aP00D07M/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "d8hAf8M73iI",
           "title": "Oh non, mon pneu est tout dégonflé ! 🚲 Simon | Épisodes Complets | 45m | S1+2+3+4 | Dessin animé",
@@ -852,28 +874,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
-        },
-        {
-          "id": "rap3Yi7kvVw",
-          "title": "J’arrive à faire du roller ! 😄 Simon | Épisodes Complets | 30m | S2 | Dessin animé",
-          "publishedAt": "2026-11-04T15:00:20+00:00",
-          "url": "https://www.youtube.com/watch?v=rap3Yi7kvVw",
-          "thumbnail": "https://i3.ytimg.com/vi/rap3Yi7kvVw/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "dVYeONtobYU",
-          "title": "Je suis plus ton copain | Simon | Épisode Complet S1 | Dessin animé pour enfants",
-          "publishedAt": "2026-11-03T15:00:15+00:00",
-          "url": "https://www.youtube.com/watch?v=dVYeONtobYU",
-          "thumbnail": "https://i1.ytimg.com/vi/dVYeONtobYU/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -885,6 +885,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "VPhYXQYC0pM",
+          "title": "Bing Français Épisodes Complets | 10x Épisodes | Bing Français",
+          "publishedAt": "2026-11-21T09:00:25+00:00",
+          "url": "https://www.youtube.com/watch?v=VPhYXQYC0pM",
+          "thumbnail": "https://i3.ytimg.com/vi/VPhYXQYC0pM/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "auGyQ9pWS_4",
           "title": "C'est l'heure du petit-déjeuner ! | Bing Français",
@@ -1037,17 +1048,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "7uZ4_6hzEV8",
-          "title": "Il fait chaud aujourd'hui ! | Bing Français",
-          "publishedAt": "2026-09-30T15:00:23+00:00",
-          "url": "https://www.youtube.com/watch?v=7uZ4_6hzEV8",
-          "thumbnail": "https://i4.ytimg.com/vi/7uZ4_6hzEV8/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "9LUF770d3A8",
+          "title": "2 CONTES 3D | Hansel et Gretel + La Belle et la Bête | Dessins Animés pour Enfants",
+          "publishedAt": "2026-11-20T15:00:45+00:00",
+          "url": "https://www.youtube.com/watch?v=9LUF770d3A8",
+          "thumbnail": "https://i2.ytimg.com/vi/9LUF770d3A8/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "7lTY3EX4zt0",
           "title": "Jette les ordures, nettoie tes jouets pour un monde propre !",
           "publishedAt": "2026-11-18T16:45:18+00:00",
@@ -1570,17 +1581,6 @@
           "thumbnail": "https://i3.ytimg.com/vi/FJDpKf_YjAg/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "0rb3Ba3dkiE",
-          "title": "Les Deux Sœurs : Mangita et Larina ✨ | Conte pour Enfants | Dessin Animé avec @lesptitszamis",
-          "publishedAt": "2026-10-23T15:00:11+00:00",
-          "url": "https://www.youtube.com/watch?v=0rb3Ba3dkiE",
-          "thumbnail": "https://i1.ytimg.com/vi/0rb3Ba3dkiE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
         }
