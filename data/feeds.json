@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-21T13:30:30+00:00",
+  "generatedAt": "2026-11-22T13:24:22+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -361,6 +361,17 @@
       "error": null,
       "videos": [
         {
+          "id": "qNFTfQMb0XA",
+          "title": "🏡 Trotro adore sa maison 🥰 I Compilation toute douce pour enfant",
+          "publishedAt": "2026-11-22T09:00:26+00:00",
+          "url": "https://www.youtube.com/watch?v=qNFTfQMb0XA",
+          "thumbnail": "https://i2.ytimg.com/vi/qNFTfQMb0XA/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "jnejuEez_W0",
           "title": "🧸 Trotro est têtu, il ne veut pas prêter ! 😅 I Compilation éducative pour enfant",
           "publishedAt": "2026-11-20T09:00:39+00:00",
@@ -513,17 +524,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
-        },
-        {
-          "id": "HeExD8b0_HY",
-          "title": "C'est l'heure de la sieste pour Trotro 😴🩵 I Compilation pour enfant",
-          "publishedAt": "2026-10-16T08:00:27+00:00",
-          "url": "https://www.youtube.com/watch?v=HeExD8b0_HY",
-          "thumbnail": "https://i1.ytimg.com/vi/HeExD8b0_HY/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
         }
       ]
     },
@@ -536,6 +536,17 @@
       "error": null,
       "videos": [
         {
+          "id": "NqxLLruvwNw",
+          "title": "🔴VIVRE: Bluey et Bingo s'amusent dans la cour de récréation!💙🤩🛝| Bluey Français Chaîne Officielle",
+          "publishedAt": "2026-11-21T19:06:02+00:00",
+          "url": "https://www.youtube.com/watch?v=NqxLLruvwNw",
+          "thumbnail": "https://i3.ytimg.com/vi/NqxLLruvwNw/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": true
+        },
+        {
           "id": "rl1alZkX_os",
           "title": "2 HEURES🎄 | Déjeuner de Noël avec Bluey et la famille Heeler! 🎅🍽️ | Bluey Français Chaîne Officielle",
           "publishedAt": "2026-11-20T16:00:04+00:00",
@@ -545,17 +556,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
-        },
-        {
-          "id": "NqxLLruvwNw",
-          "title": "🔴VIVRE: Bluey et Bingo s'amusent dans la cour de récréation!💙🤩🛝| Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-11-20T10:20:04+00:00",
-          "url": "https://www.youtube.com/watch?v=NqxLLruvwNw",
-          "thumbnail": "https://i3.ytimg.com/vi/NqxLLruvwNw/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": true
         },
         {
           "id": "24BJRGrh4Bg",
@@ -711,6 +711,17 @@
       "error": null,
       "videos": [
         {
+          "id": "anN3tHEuNSc",
+          "title": "Pas touche à mes gâteaux ! 🍪 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
+          "publishedAt": "2026-11-22T08:00:13+00:00",
+          "url": "https://www.youtube.com/watch?v=anN3tHEuNSc",
+          "thumbnail": "https://i2.ytimg.com/vi/anN3tHEuNSc/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "IKc_TOqbqcQ",
           "title": "Je vais le dire à Mamie | Simon | Épisode Complet S5 | Dessin animé pour enfants",
           "publishedAt": "2026-11-21T07:00:28+00:00",
@@ -862,17 +873,6 @@
           "durationSeconds": null,
           "likelyShort": true,
           "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "WtjUPpYR-CM",
-          "title": "Vive Noël avec Simon ! 🎅 Compilation des chansons de Simon",
-          "publishedAt": "2026-11-06T14:00:06+00:00",
-          "url": "https://www.youtube.com/watch?v=WtjUPpYR-CM",
-          "thumbnail": "https://i4.ytimg.com/vi/WtjUPpYR-CM/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
           "likelyLive": false
         }
       ]
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "swq5DN1I3Tc",
+          "title": "Cours vite aux Toilettes, lave tes mains et va jouer ! 💧",
+          "publishedAt": "2026-11-21T14:00:16+00:00",
+          "url": "https://www.youtube.com/shorts/swq5DN1I3Tc",
+          "thumbnail": "https://i4.ytimg.com/vi/swq5DN1I3Tc/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "9LUF770d3A8",
           "title": "2 CONTES 3D | Hansel et Gretel + La Belle et la Bête | Dessins Animés pour Enfants",
           "publishedAt": "2026-11-20T15:00:45+00:00",
@@ -1568,17 +1579,6 @@
           "publishedAt": "2026-10-25T17:00:29+00:00",
           "url": "https://www.youtube.com/shorts/yE_Bc_QJ9zY",
           "thumbnail": "https://i2.ytimg.com/vi/yE_Bc_QJ9zY/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "FJDpKf_YjAg",
-          "title": "Devine ce que la sorcière prépare 🎃🔮 #halloween #shorts",
-          "publishedAt": "2026-10-24T16:00:27+00:00",
-          "url": "https://www.youtube.com/shorts/FJDpKf_YjAg",
-          "thumbnail": "https://i3.ytimg.com/vi/FJDpKf_YjAg/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
           "likelyLong": false,
