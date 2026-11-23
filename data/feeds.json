@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T13:24:22+00:00",
+  "generatedAt": "2026-11-23T16:03:52+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -536,6 +536,17 @@
       "error": null,
       "videos": [
         {
+          "id": "SDqJkJH0-Og",
+          "title": "Bluey et Bingo jouent à « Les filles de la pizza » !💙🍕| Bluey Français Chaîne Officielle",
+          "publishedAt": "2026-11-22T15:00:13+00:00",
+          "url": "https://www.youtube.com/watch?v=SDqJkJH0-Og",
+          "thumbnail": "https://i4.ytimg.com/vi/SDqJkJH0-Og/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "NqxLLruvwNw",
           "title": "🔴VIVRE: Bluey et Bingo s'amusent dans la cour de récréation!💙🤩🛝| Bluey Français Chaîne Officielle",
           "publishedAt": "2026-11-21T19:06:02+00:00",
@@ -688,17 +699,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "wtUGiZgqKuc",
-          "title": "🔴VIVRE: Bluey et Bingo se transforment en mamies!👵💙| 40 MINUTES | Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-10-04T16:43:31+00:00",
-          "url": "https://www.youtube.com/watch?v=wtUGiZgqKuc",
-          "thumbnail": "https://i4.ytimg.com/vi/wtUGiZgqKuc/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": true
         }
       ]
     },
