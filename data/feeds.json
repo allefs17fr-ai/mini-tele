@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T16:03:52+00:00",
+  "generatedAt": "2026-11-24T15:56:10+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -10,6 +10,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "SF9i8g5yJP0",
+          "title": "T'choupi part à la chasse aux trésors de l'automne ! 🍂🐌 #shorts #tchoupi #automne",
+          "publishedAt": "2026-11-24T15:00:00+00:00",
+          "url": "https://www.youtube.com/shorts/SF9i8g5yJP0",
+          "thumbnail": "https://i4.ytimg.com/vi/SF9i8g5yJP0/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "Q6EroFqxoeg",
           "title": "T'choupi et ses amis 📞Le jeu du téléphone (EP.39) - dessin animé pour enfants #tchoupi",
@@ -161,17 +172,6 @@
           "thumbnail": "https://i1.ytimg.com/vi/XjJk6t1EX80/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "FddbsocabVM",
-          "title": "🎪 T'choupi à l'école - Le cirque à l'école (EP.29) - dessin animé - épisode en entier #tchoupi",
-          "publishedAt": "2026-09-29T22:00:15+00:00",
-          "url": "https://www.youtube.com/watch?v=FddbsocabVM",
-          "thumbnail": "https://i3.ytimg.com/vi/FddbsocabVM/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
         }
@@ -711,6 +711,28 @@
       "error": null,
       "videos": [
         {
+          "id": "wiwRy5bsEhI",
+          "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
+          "publishedAt": "2026-11-24T10:24:53+00:00",
+          "url": "https://www.youtube.com/watch?v=wiwRy5bsEhI",
+          "thumbnail": "https://i4.ytimg.com/vi/wiwRy5bsEhI/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": true
+        },
+        {
+          "id": "ASEjHBatN5U",
+          "title": "Oh non, je veux pas aller à l’hôpital ! 🏥 Simon | Épisodes Complets | 45m | S1+2+3+4 | Dessin animé",
+          "publishedAt": "2026-11-24T09:00:21+00:00",
+          "url": "https://www.youtube.com/watch?v=ASEjHBatN5U",
+          "thumbnail": "https://i2.ytimg.com/vi/ASEjHBatN5U/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "anN3tHEuNSc",
           "title": "Pas touche à mes gâteaux ! 🍪 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
           "publishedAt": "2026-11-22T08:00:13+00:00",
@@ -851,28 +873,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "Pf1kG2fj4P0",
-          "title": "Pas de dispute pour les super héros | Simon | Épisode Complet S5 | Dessin animé pour enfants",
-          "publishedAt": "2026-11-07T07:00:17+00:00",
-          "url": "https://www.youtube.com/watch?v=Pf1kG2fj4P0",
-          "thumbnail": "https://i1.ytimg.com/vi/Pf1kG2fj4P0/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "y0ASwGtY-0M",
-          "title": "Il est à nous, ce trésor ! 💎 | Simon #shorts",
-          "publishedAt": "2026-11-06T15:00:22+00:00",
-          "url": "https://www.youtube.com/shorts/y0ASwGtY-0M",
-          "thumbnail": "https://i2.ytimg.com/vi/y0ASwGtY-0M/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
