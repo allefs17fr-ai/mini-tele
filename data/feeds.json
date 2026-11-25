@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T15:56:10+00:00",
+  "generatedAt": "2026-11-25T15:41:44+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -10,6 +10,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "EDOHzIuL6AE",
+          "title": "T'choupi à l'école 🎂 Deux Anniversaire, deux Gâteaux (EP.27)",
+          "publishedAt": "2026-11-25T15:00:36+00:00",
+          "url": "https://www.youtube.com/watch?v=EDOHzIuL6AE",
+          "thumbnail": "https://i2.ytimg.com/vi/EDOHzIuL6AE/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "SF9i8g5yJP0",
           "title": "T'choupi part à la chasse aux trésors de l'automne ! 🍂🐌 #shorts #tchoupi #automne",
@@ -162,17 +173,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "XjJk6t1EX80",
-          "title": "T'Choupi : Vive la rentrée ! T'Choupi à l'école #shorts",
-          "publishedAt": "2026-10-02T22:00:00+00:00",
-          "url": "https://www.youtube.com/shorts/XjJk6t1EX80",
-          "thumbnail": "https://i1.ytimg.com/vi/XjJk6t1EX80/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
@@ -711,6 +711,17 @@
       "error": null,
       "videos": [
         {
+          "id": "yHtklcM5hhI",
+          "title": "Promis, on ne se dispute plus ! 🤞 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
+          "publishedAt": "2026-11-25T08:00:39+00:00",
+          "url": "https://www.youtube.com/watch?v=yHtklcM5hhI",
+          "thumbnail": "https://i2.ytimg.com/vi/yHtklcM5hhI/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "wiwRy5bsEhI",
           "title": "🔴 Petites bêtises et grandes aventures avec Simon et Gaspard ! Live | Episodes entiers",
           "publishedAt": "2026-11-24T10:24:53+00:00",
@@ -862,17 +873,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "v3KKEdmtmP8",
-          "title": "Oh non ! Professeur Wolf triche ! 😮 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
-          "publishedAt": "2026-11-08T07:00:07+00:00",
-          "url": "https://www.youtube.com/watch?v=v3KKEdmtmP8",
-          "thumbnail": "https://i3.ytimg.com/vi/v3KKEdmtmP8/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
           "likelyLive": false
         }
       ]
@@ -1420,6 +1420,28 @@
       "error": null,
       "videos": [
         {
+          "id": "tImpDNZZS3w",
+          "title": "Cours vite aux Toilettes, lave tes mains et va jouer ! 💧",
+          "publishedAt": "2026-11-25T15:00:37+00:00",
+          "url": "https://www.youtube.com/shorts/tImpDNZZS3w",
+          "thumbnail": "https://i1.ytimg.com/vi/tImpDNZZS3w/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
+          "id": "lEGNBbNjTrI",
+          "title": "Heidi la Petite Fille des Montagnes | Conte 3D | Dessin Animé avec  @lesptitszamis ​",
+          "publishedAt": "2026-11-24T16:00:31+00:00",
+          "url": "https://www.youtube.com/shorts/lEGNBbNjTrI",
+          "thumbnail": "https://i1.ytimg.com/vi/lEGNBbNjTrI/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "swq5DN1I3Tc",
           "title": "Cours vite aux Toilettes, lave tes mains et va jouer ! 💧",
           "publishedAt": "2026-11-21T14:00:16+00:00",
@@ -1557,28 +1579,6 @@
           "publishedAt": "2026-10-28T17:30:31+00:00",
           "url": "https://www.youtube.com/shorts/vAVZZCUyO-w",
           "thumbnail": "https://i3.ytimg.com/vi/vAVZZCUyO-w/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "jO5v0jqrW8A",
-          "title": "La sorcière transforme le village en bonbons ! 🍬😱 #halloween #shorts",
-          "publishedAt": "2026-10-27T17:00:31+00:00",
-          "url": "https://www.youtube.com/shorts/jO5v0jqrW8A",
-          "thumbnail": "https://i3.ytimg.com/vi/jO5v0jqrW8A/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "yE_Bc_QJ9zY",
-          "title": "Le Chien Bobby devient une sucette géante ! 🍭😂 #halloween #shorts",
-          "publishedAt": "2026-10-25T17:00:29+00:00",
-          "url": "https://www.youtube.com/shorts/yE_Bc_QJ9zY",
-          "thumbnail": "https://i2.ytimg.com/vi/yE_Bc_QJ9zY/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
           "likelyLong": false,
