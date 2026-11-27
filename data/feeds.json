@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T15:23:01+00:00",
+  "generatedAt": "2026-11-27T15:10:24+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -10,6 +10,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "_vZUD0kXNdU",
+          "title": "T'choupi découvre l'hiver ! ☃️❄️ | T'choupi et Doudou",
+          "publishedAt": "2026-11-27T15:00:37+00:00",
+          "url": "https://www.youtube.com/watch?v=_vZUD0kXNdU",
+          "thumbnail": "https://i4.ytimg.com/vi/_vZUD0kXNdU/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "8M1Aj4xFERU",
           "title": "T'Choupi à l'école #shorts",
@@ -161,17 +172,6 @@
           "thumbnail": "https://i2.ytimg.com/vi/iQufE_nUjpw/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "NyW0sq7_3uM",
-          "title": "T'Choupi : Vive la rentrée ! T'Choupi à l'école #shorts",
-          "publishedAt": "2026-10-09T22:00:38+00:00",
-          "url": "https://www.youtube.com/shorts/NyW0sq7_3uM",
-          "thumbnail": "https://i3.ytimg.com/vi/NyW0sq7_3uM/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
           "likelyLong": false,
           "likelyLive": false
         }
@@ -711,6 +711,28 @@
       "error": null,
       "videos": [
         {
+          "id": "e3PdhyoOUwA",
+          "title": "C’est mon petit frère le champion ! 🏆 | Simon #shorts",
+          "publishedAt": "2026-11-27T15:00:00+00:00",
+          "url": "https://www.youtube.com/shorts/e3PdhyoOUwA",
+          "thumbnail": "https://i2.ytimg.com/vi/e3PdhyoOUwA/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": true,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
+          "id": "dvRZ22S4CI8",
+          "title": "Joyeux anniversaire ! 🎂 | Toutes les meilleures chansons de Simon",
+          "publishedAt": "2026-11-27T09:00:19+00:00",
+          "url": "https://www.youtube.com/watch?v=dvRZ22S4CI8",
+          "thumbnail": "https://i1.ytimg.com/vi/dvRZ22S4CI8/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "yHtklcM5hhI",
           "title": "Promis, on ne se dispute plus ! 🤞 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
           "publishedAt": "2026-11-25T08:00:39+00:00",
@@ -851,28 +873,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "3jjaPWh_wAE",
-          "title": "Mon costume a disparu ! 😨 Simon | Épisodes Complets | 45m | S2 | Dessin animé",
-          "publishedAt": "2026-11-11T07:00:37+00:00",
-          "url": "https://www.youtube.com/watch?v=3jjaPWh_wAE",
-          "thumbnail": "https://i4.ytimg.com/vi/3jjaPWh_wAE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "aVPcs1mpQ1c",
-          "title": "Pas sommeil | Simon | Épisode Complet S1 | Dessin animé pour enfants",
-          "publishedAt": "2026-11-10T15:00:39+00:00",
-          "url": "https://www.youtube.com/watch?v=aVPcs1mpQ1c",
-          "thumbnail": "https://i2.ytimg.com/vi/aVPcs1mpQ1c/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
@@ -1420,6 +1420,17 @@
       "error": null,
       "videos": [
         {
+          "id": "qWCzDPpAx2s",
+          "title": "Le Cordonnier et les Elfes ✨ | Conte pour enfants | Animation et Personnages Réels",
+          "publishedAt": "2026-11-27T15:00:21+00:00",
+          "url": "https://www.youtube.com/watch?v=qWCzDPpAx2s",
+          "thumbnail": "https://i2.ytimg.com/vi/qWCzDPpAx2s/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
+        {
           "id": "tImpDNZZS3w",
           "title": "Cours vite aux Toilettes, lave tes mains et va jouer ! 💧",
           "publishedAt": "2026-11-25T15:00:37+00:00",
@@ -1568,17 +1579,6 @@
           "publishedAt": "2026-10-30T17:00:39+00:00",
           "url": "https://www.youtube.com/shorts/-9TSo2UiRq0",
           "thumbnail": "https://i2.ytimg.com/vi/-9TSo2UiRq0/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
-        },
-        {
-          "id": "vAVZZCUyO-w",
-          "title": "Mystère à Halloween : des sucreries géantes en ville ! 🍬🏘️ #halloween #shorts",
-          "publishedAt": "2026-10-28T17:30:31+00:00",
-          "url": "https://www.youtube.com/shorts/vAVZZCUyO-w",
-          "thumbnail": "https://i3.ytimg.com/vi/vAVZZCUyO-w/hqdefault.jpg",
           "durationSeconds": null,
           "likelyShort": true,
           "likelyLong": false,
