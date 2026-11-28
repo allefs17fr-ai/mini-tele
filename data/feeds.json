@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T15:10:24+00:00",
+  "generatedAt": "2026-11-28T14:16:12+00:00",
   "channels": [
     {
       "channelId": "UC5hqGTWVyQQSpsh-5pyFo8Q",
@@ -186,6 +186,17 @@
       "error": null,
       "videos": [
         {
+          "id": "HiDq_Cwe-Sc",
+          "title": "Petit Ours Brun adore son papa ❤️ | Compilation adorable pour enfant",
+          "publishedAt": "2026-11-28T09:00:27+00:00",
+          "url": "https://www.youtube.com/watch?v=HiDq_Cwe-Sc",
+          "thumbnail": "https://i1.ytimg.com/vi/HiDq_Cwe-Sc/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
+        {
           "id": "A3i-VXM6qGg",
           "title": "🐱 Où est passé le chat de Petit Ours Brun ? Cherchons-le ensemble ! 🥰 | Compilation pour enfant",
           "publishedAt": "2026-11-21T09:00:07+00:00",
@@ -338,17 +349,6 @@
           "likelyShort": true,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "1mwzQa_oGZs",
-          "title": "🏖️ Château de sable à la plage 🏖️ #shorts #PetitOursBrun #dessinanime",
-          "publishedAt": "2026-09-13T08:00:17+00:00",
-          "url": "https://www.youtube.com/shorts/1mwzQa_oGZs",
-          "thumbnail": "https://i2.ytimg.com/vi/1mwzQa_oGZs/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": true,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -360,6 +360,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "YiAkq7SY_ZQ",
+          "title": "💕 Trotro trottine 😂 I Compilation rigolote pour enfant",
+          "publishedAt": "2026-11-28T09:00:39+00:00",
+          "url": "https://www.youtube.com/watch?v=YiAkq7SY_ZQ",
+          "thumbnail": "https://i2.ytimg.com/vi/YiAkq7SY_ZQ/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "qNFTfQMb0XA",
           "title": "🏡 Trotro adore sa maison 🥰 I Compilation toute douce pour enfant",
@@ -513,17 +524,6 @@
           "likelyShort": false,
           "likelyLong": true,
           "likelyLive": false
-        },
-        {
-          "id": "iB3W8L0F-Kw",
-          "title": "Trotro est au bord de la mer avec sa famille ⛅️ I Compilation pour enfant",
-          "publishedAt": "2026-10-18T08:00:33+00:00",
-          "url": "https://www.youtube.com/watch?v=iB3W8L0F-Kw",
-          "thumbnail": "https://i2.ytimg.com/vi/iB3W8L0F-Kw/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
         }
       ]
     },
@@ -535,6 +535,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "oB9Vo9WJVGM",
+          "title": "2 HEURES🎄 | La famille Heeler joue au « Père Noël de la véranda »🎅| Bluey Français Chaîne Officielle",
+          "publishedAt": "2026-11-27T16:00:15+00:00",
+          "url": "https://www.youtube.com/watch?v=oB9Vo9WJVGM",
+          "thumbnail": "https://i4.ytimg.com/vi/oB9Vo9WJVGM/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "SDqJkJH0-Og",
           "title": "Bluey et Bingo jouent à « Les filles de la pizza » !💙🍕| Bluey Français Chaîne Officielle",
@@ -688,17 +699,6 @@
           "likelyShort": false,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "TgNcrsI3RbM",
-          "title": "Bluey et Bingo sèment le chaos!💙🤣🫧 | Bluey Français Chaîne Officielle",
-          "publishedAt": "2026-10-09T15:00:13+00:00",
-          "url": "https://www.youtube.com/watch?v=TgNcrsI3RbM",
-          "thumbnail": "https://i1.ytimg.com/vi/TgNcrsI3RbM/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
-          "likelyLive": false
         }
       ]
     },
@@ -710,6 +710,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "Y91FPWGifcI",
+          "title": "La revanche de Super Lou | Simon | Épisode Complet S5 | Dessin animé pour enfants",
+          "publishedAt": "2026-11-28T07:00:13+00:00",
+          "url": "https://www.youtube.com/watch?v=Y91FPWGifcI",
+          "thumbnail": "https://i2.ytimg.com/vi/Y91FPWGifcI/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": false,
+          "likelyLive": false
+        },
         {
           "id": "e3PdhyoOUwA",
           "title": "C’est mon petit frère le champion ! 🏆 | Simon #shorts",
@@ -863,17 +874,6 @@
           "likelyShort": true,
           "likelyLong": false,
           "likelyLive": false
-        },
-        {
-          "id": "fBRi3zgY1aE",
-          "title": "Pas le droit de m'attraper ! 😜 Simon | Épisodes Complets | 30m | S5 | Dessin animé",
-          "publishedAt": "2026-11-13T11:00:19+00:00",
-          "url": "https://www.youtube.com/watch?v=fBRi3zgY1aE",
-          "thumbnail": "https://i3.ytimg.com/vi/fBRi3zgY1aE/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": true,
-          "likelyLive": false
         }
       ]
     },
@@ -885,6 +885,17 @@
       "ok": true,
       "error": null,
       "videos": [
+        {
+          "id": "Wa5C3R4JzVk",
+          "title": "Bing Français Épisodes Complets | 5x Épisodes | Bing Français",
+          "publishedAt": "2026-11-28T09:00:32+00:00",
+          "url": "https://www.youtube.com/watch?v=Wa5C3R4JzVk",
+          "thumbnail": "https://i4.ytimg.com/vi/Wa5C3R4JzVk/hqdefault.jpg",
+          "durationSeconds": null,
+          "likelyShort": false,
+          "likelyLong": true,
+          "likelyLive": false
+        },
         {
           "id": "E0DQDD1-a4U",
           "title": "Bing marche dans une crotte de chien et perd Hoppity ! | Bing Français",
@@ -1037,17 +1048,6 @@
           "durationSeconds": null,
           "likelyShort": false,
           "likelyLong": true,
-          "likelyLive": false
-        },
-        {
-          "id": "0PgWePmMWto",
-          "title": "Bing et Sula trouvent Le Taxi qui Parle ! | Bing Français",
-          "publishedAt": "2026-10-07T15:00:15+00:00",
-          "url": "https://www.youtube.com/watch?v=0PgWePmMWto",
-          "thumbnail": "https://i1.ytimg.com/vi/0PgWePmMWto/hqdefault.jpg",
-          "durationSeconds": null,
-          "likelyShort": false,
-          "likelyLong": false,
           "likelyLive": false
         }
       ]
